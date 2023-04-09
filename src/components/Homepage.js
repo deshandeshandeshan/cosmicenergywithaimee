@@ -1,6 +1,8 @@
+import Header from "./Header";
+
 return (
   <main>
-    <h1>Cosmic Energy with Aimee</h1>
+    <Header />
 
     <h2>Unlock your self-empowerment and clear blocks with Aimee.</h2>
 
