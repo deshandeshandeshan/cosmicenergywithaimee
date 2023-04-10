@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Homepage = () => {
   return (
     <main>
@@ -12,7 +14,9 @@ const Homepage = () => {
         around us. I offer a range remote services that promote natural healing
         and spiritual growth. Take a look!
       </p>
-      <button>Services</button>
+      <Link to="/services">
+        <button>Services</button>
+      </Link>
 
       <h2>Let's discover whats holding you back</h2>
       <p>
@@ -20,7 +24,9 @@ const Homepage = () => {
         are stopping you from aligning with your full potential and your higher
         self. Allow me to help you on your journey…
       </p>
-      <button>Enquire</button>
+      <Link to="/enquire">
+        <button>Enquire</button>
+      </Link>
 
       <h2>Hi, I'm Aimee</h2>
       <p>
@@ -32,7 +38,9 @@ const Homepage = () => {
         stopping their soul connection on their journey and who they want to be.
         I see you, I hear you, I feel you.
       </p>
-      <button>About me</button>
+      <Link to="/aboutme">
+        <button>About me</button>
+      </Link>
     </main>
   );
 };
