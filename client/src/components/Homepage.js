@@ -20,7 +20,7 @@ const Homepage = () => {
         are stopping you from aligning with your full potential and your higher
         self. Allow me to help you on your journey…
       </p>
-      <b>Enquire</b>
+      <button>Enquire</button>
 
       <h2>Hi, I'm Aimee</h2>
       <p>
