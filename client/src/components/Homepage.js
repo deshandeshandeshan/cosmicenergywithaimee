@@ -1,10 +1,6 @@
-import Header from "./Header";
-
 const Homepage = () => {
   return (
     <main>
-      <Header />
-
       <h2>Unlock your self-empowerment and clear blocks with Aimee.</h2>
 
       <h2>Welcome to Cosmic Energy</h2>
