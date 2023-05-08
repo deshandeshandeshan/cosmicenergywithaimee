@@ -1,46 +1,81 @@
 import { Link } from "react-router-dom";
+import tree from "../images/tree.jpg";
+import reiki from "../images/reiki.jpg";
+import aboutMe from "../images/about_me.jpg";
 
 const Homepage = () => {
   return (
     <main>
-      <h2>Unlock your self-empowerment and clear blocks with Aimee.</h2>
+      <div>
+        <p>
+          Cosmic Energy is a spiritual company founded by Aimee. Our services
+          are designed to help you connect with your inner self and elevate your
+          consciousness. We value openness, oneness and spiritual growth, and
+          strive to empower you on your journey with kindness and authenticity.
+          Our goal is to support your path towards self-discovery and
+          transformation.
+        </p>
+      </div>
 
-      <h2>Welcome to Cosmic Energy</h2>
-      <p>
-        We often hear it nowadays don’t we - how we are all made up of energy,
-        and that is true for everything in our world, so when your own internal
-        energy system (the chakras) are out of sync, it really does have a
-        profound effect on our reality and how we respond to things happening
-        around us. I offer a range remote services that promote natural healing
-        and spiritual growth. Take a look!
-      </p>
-      <Link to="/services">
-        <button>Services</button>
-      </Link>
+      <div>
+        <img
+          src={tree}
+          alt="Misty scene with a single tree in the middle"
+          width="500"
+        />
+      </div>
 
-      <h2>Let's discover whats holding you back</h2>
-      <p>
-        Here at Cosmic Energy, my goal is to help you clear any blockages that
-        are stopping you from aligning with your full potential and your higher
-        self. Allow me to help you on your journey…
-      </p>
-      <Link to="/enquire">
-        <button>Enquire</button>
-      </Link>
+      <div>
+        <h2>Services</h2>
 
-      <h2>Hi, I'm Aimee</h2>
-      <p>
-        I have consciously been on my own spiritual journey since I was 17 years
-        of age. Fast forward a few years and some losses later, I finally chose
-        to answer the “call” to unlock who I really am after losing my Paternal
-        grandmother back in 2008. I am passionate about being a catalyst for my
-        clients to unlock their self-empowerment and clear blocks that are
-        stopping their soul connection on their journey and who they want to be.
-        I see you, I hear you, I feel you.
-      </p>
-      <Link to="/aboutme">
-        <button>About me</button>
-      </Link>
+        <img
+          src={reiki}
+          alt="Side profile of someones face laying down as someone performs reiki on them"
+          width="500"
+        />
+
+        <p>
+          At Cosmic Energy, we offer spiritual services that aim to help you
+          connect with your inner self, elevate your consciousness and enhance
+          your overall wellbeing. Our services include Reiki, Oracle Card
+          Readings and Mediumship Readings.
+        </p>
+
+        <p>
+          Whether you're seeking to release tension, gain insight or find
+          comfort, our services are tailored to your individual needs and
+          preferences and can be conducted in person, on video call or through
+          email. We invite you to explore our offerings and discover how Cosmic
+          Energy can support your spiritual journey.
+        </p>
+
+        <Link to="/services">
+          <button>View Services</button>
+        </Link>
+      </div>
+
+      <div>
+        <h2>Hi, I'm Aimee</h2>
+
+        <img
+          src={aboutMe}
+          alt="Someone Viewing a glowing green sky"
+          width="500"
+        />
+
+        <p>
+          I have consciously been on my own spiritual journey since I was 17
+          years of age. Fast forward a few years and some losses later, I
+          finally chose to answer the “call” to unlock who I really am after
+          losing my Paternal grandmother back in 2008. I am passionate about
+          being a catalyst for my clients to unlock their self-empowerment and
+          clear blocks that are stopping their soul connection on their journey
+          and who they want to be.
+        </p>
+        <Link to="/aboutme">
+          <button>More about me</button>
+        </Link>
+      </div>
     </main>
   );
 };
