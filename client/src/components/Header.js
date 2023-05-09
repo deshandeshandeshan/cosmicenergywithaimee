@@ -11,8 +11,8 @@ const Header = () => {
         <Link to="/services" classname="list">
           Services
         </Link>
-        <Link to="/enquire" classname="list">
-          Enqire
+        <Link to="/contact" classname="list">
+          Contact
         </Link>
         <Link to="/aboutme" classname="list">
           About me
