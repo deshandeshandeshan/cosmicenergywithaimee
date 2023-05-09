@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <main>
       <div>
-        <h1>Services</h1>
+        <h1 className="heading">Services</h1>
         <p>
           We offer a range of spiritual services designed to help you connect
           with your inner self, gain clarity and elevate your consciousness.
@@ -23,7 +23,7 @@ const Services = () => {
           width="500"
         />
 
-        <h2>Reiki</h2>
+        <h2 className="heading">Reiki</h2>
         <p>
           A Japanese healing technique that promotes relaxation and balance in
           the body, mind and spirit. During a session, the practitioner will use

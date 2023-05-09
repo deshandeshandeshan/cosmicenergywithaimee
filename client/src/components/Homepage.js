@@ -26,7 +26,7 @@ const Homepage = () => {
       </div>
 
       <div>
-        <h2>Services</h2>
+        <h2 className="heading">Services</h2>
 
         <img
           src={reiki}
@@ -55,7 +55,7 @@ const Homepage = () => {
       </div>
 
       <div>
-        <h2>Hi, I'm Aimee</h2>
+        <h2 className="heading">Hi, I'm Aimee</h2>
 
         <img
           src={aboutMe}

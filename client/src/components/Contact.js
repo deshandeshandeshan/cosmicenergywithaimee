@@ -1,8 +1,8 @@
-const Enquire = () => {
+const Contact = () => {
   return (
     <main>
       <div>
-        <h1>Enquire</h1>
+        <h1 className="heading">Contact</h1>
         <p>Enquire here for a service and I’ll get in contact</p>
         <form>
           <label for="name">Name:</label>
@@ -26,4 +26,4 @@ const Enquire = () => {
   );
 };
 
-export default Enquire;
+export default Contact;
