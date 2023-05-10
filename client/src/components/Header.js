@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
+import Logo from "../images/Logo.png";
 
 const Header = () => {
   return (
     <main>
-      <h1>Cosmic Energy with Aimee</h1>
+      <div>
+        <img src={Logo} alt="Cosmic energy logo" width="200" />
+      </div>
+
       <ul>
         <Link to="/" classname="list">
           Homepage

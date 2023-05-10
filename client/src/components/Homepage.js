@@ -2,10 +2,14 @@ import { Link } from "react-router-dom";
 import tree from "../images/tree.jpg";
 import reiki from "../images/reiki.jpg";
 import aboutMe from "../images/about_me.jpg";
+import HomepageSvgGradient from "./HomepageSvgGradient";
 
 const Homepage = () => {
   return (
     <main>
+      <div>
+        <HomepageSvgGradient />
+      </div>
       <div>
         <p>
           Cosmic Energy is a spiritual company founded by Aimee. Our services
