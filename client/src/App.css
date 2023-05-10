@@ -1,7 +1,11 @@
 @import url("https://use.typekit.net/iyd3oxw.css");
 
  body {
-    font-family: "neue-haas-grotesk-text", sans-serif;
+   margin: 0;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    font-kerning: normal;
  }
 
  h1, h2, h3 {

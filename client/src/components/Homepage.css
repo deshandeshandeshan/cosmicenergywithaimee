@@ -1,0 +1,84 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 12px;
+}
+
+img, svg {
+    display: block;
+}
+
+/* .centredVertically {
+    grid-template-rows: 2fr, 1fr, 1fr;
+} */
+
+.gridFirstSection {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.firstSection {
+    background-color: #20123E;
+    height: 30rem;
+}
+
+.secondSection {
+    background-color: #4A2A93;
+}
+
+.thirdSection {
+    background-color: #E8E3D6;
+}
+
+.gridSecondSection {
+    grid-template-rows: repeat(5, auto);
+}
+
+.gridThirdSection {
+    grid-template-rows: repeat(4, auto);
+}
+
+.textColourCream {
+    color: #E8E3D6;
+}
+
+.textCentred {
+    text-align: center;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.itemA {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+}
+
+.itemB {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+}
+
+.itemC {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+}
+
+.itemD {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+}
+
+.itemE {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+}
