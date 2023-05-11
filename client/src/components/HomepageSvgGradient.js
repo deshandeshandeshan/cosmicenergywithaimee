@@ -10,15 +10,15 @@ const HomepageSvgGradient = () => {
           x2="1"
           y2="1"
         >
-          {/* <stop offset="0" stop-color="red">
+          {/* <stop offset="0" stopColor="red">
             <animate
-              attributeName="stop-color"
+              attributeName="stopColorr"
               values="red"
               dur="20s"
               repeatCount="indefinite"
             ></animate>
           </stop> */}
-          <stop offset=".5" stop-color="purple">
+          <stop offset=".5" stopColor="purple">
             <animate
               attributeName="stop-color"
               values="4A2A93;"
@@ -26,7 +26,7 @@ const HomepageSvgGradient = () => {
               repeatCount="indefinite"
             ></animate>
           </stop>
-          <stop offset="1" stop-color="purple">
+          <stop offset="1" stopColor="purple">
             <animate
               attributeName="stop-color"
               values="4A2A93"
@@ -51,7 +51,7 @@ const HomepageSvgGradient = () => {
           x2="1"
           y2="1"
         >
-          <stop offset="0" stop-color="lightPurple">
+          <stop offset="0" stopColor="lightPurple">
             <animate
               attributeName="stop-color"
               values="E5D6FC"
@@ -59,7 +59,7 @@ const HomepageSvgGradient = () => {
               repeatCount="indefinite"
             ></animate>
           </stop>
-          <stop offset="1" stop-color="E5D6FC" stop-opacity="0">
+          <stop offset="1" stopColor="E5D6FC" stopOpacity="0">
             <animate
               attributeName="stop-color"
               values="E5D6FC"
@@ -71,7 +71,7 @@ const HomepageSvgGradient = () => {
             attributeName="gradientTransform"
             type="rotate"
             values="360 .5 .5;0 .5 .5"
-            class="ignore"
+            className="ignore"
             dur="10s"
             repeatCount="indefinite"
           />
@@ -84,15 +84,15 @@ const HomepageSvgGradient = () => {
           x2="1"
           y2="1"
         >
-          <stop offset="0" stop-color="lightPurple">
+          <stop offset="0" stopColorr="lightPurple">
             <animate
-              attributeName="stop-color"
+              attributeName="stopColor"
               values="20123E"
               dur="10s"
               repeatCount="indefinite"
             ></animate>
           </stop>
-          <stop offset="1" stop-color="purple" stop-opacity="0"></stop>
+          <stop offset="1" stopColor="purple" stopOpacity="0"></stop>
           <animateTransform
             attributeName="gradientTransform"
             type="rotate"

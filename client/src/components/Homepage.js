@@ -12,7 +12,7 @@ const Homepage = () => {
         <HomepageSvgGradient />
       </div>
       <div className="firstSection grid centredVertically">
-        <p className="textColourCream textCentred gridFirstSection">
+        <p className="textColourCream textCentred gridFirstSection gridPadding">
           Cosmic Energy is a spiritual company founded by Aimee. Our services
           are designed to help you connect with your inner self and elevate your
           consciousness. We value openness, oneness and spiritual growth, and
@@ -31,22 +31,24 @@ const Homepage = () => {
       </div>
 
       <div className="secondSection grid gridSecondSection">
-        <h2 className="heading textColourCream textCentred itemA">Services</h2>
+        <h2 className="heading textColourCream textCentred itemA gridPadding">
+          Services
+        </h2>
 
         <img
           src={reiki}
           alt="Side profile of someones face laying down as someone performs reiki on them"
-          className="image itemB"
+          className="image itemB gridPadding"
         />
 
-        <p className="textColourCream textCentred itemC">
+        <p className="textColourCream textCentred itemC gridPadding">
           At Cosmic Energy, we offer spiritual services that aim to help you
           connect with your inner self, elevate your consciousness and enhance
           your overall wellbeing. Our services include Reiki, Oracle Card
           Readings and Mediumship Readings.
         </p>
 
-        <p className="textColourCream textCentred itemD">
+        <p className="textColourCream textCentred itemD gridPadding">
           Whether you're seeking to release tension, gain insight or find
           comfort, our services are tailored to your individual needs and
           preferences and can be conducted in person, on video call or through
@@ -65,10 +67,10 @@ const Homepage = () => {
         <img
           src={aboutMe}
           alt="Someone Viewing a glowing green sky"
-          className="image itemB"
+          className="image itemB gridPadding"
         />
 
-        <p className="itemC textCentred">
+        <p className="itemC textCentred gridPadding">
           I have consciously been on my own spiritual journey since I was 17
           years of age. Fast forward a few years and some losses later, I
           finally chose to answer the “call” to unlock who I really am after
@@ -77,7 +79,7 @@ const Homepage = () => {
           clear blocks that are stopping their soul connection on their journey
           and who they want to be.
         </p>
-        <Link to="/aboutme" className="itemD">
+        <Link to="/aboutme" className="itemD gridPadding">
           <button>More about me</button>
         </Link>
       </div>

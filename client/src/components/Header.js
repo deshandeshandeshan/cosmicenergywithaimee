@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import Logo from "../images/Logo.png";
 import "./Header.css";
-import HeaderHamburger from "./HeaderHamburger";
 
 const Header = () => {
   return (
@@ -45,7 +44,6 @@ const Header = () => {
           </div>
         </nav>
       </header>
-      <script src={HeaderHamburger}></script>
     </div>
   );
 };

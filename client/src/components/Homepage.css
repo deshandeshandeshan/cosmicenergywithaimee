@@ -1,7 +1,7 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 12px;
+    grid-gap: .9rem;
 }
 
 img, svg {
@@ -12,9 +12,13 @@ img, svg {
     grid-template-rows: 2fr, 1fr, 1fr;
 } */
 
+.gridPadding {
+    padding:  0 2rem 1rem 2rem;
+}
+
 .gridFirstSection {
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
 }
@@ -54,31 +58,31 @@ img, svg {
 }
 
 .itemA {
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
     grid-row-start: 1;
 }
 
 .itemB {
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
     grid-row-start: 2;
 }
 
 .itemC {
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
     grid-row-start: 3;
 }
 
 .itemD {
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
     grid-row-start: 4;
 }
 
 .itemE {
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
     grid-row-start: 5;
 }
