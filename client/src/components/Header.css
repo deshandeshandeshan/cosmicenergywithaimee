@@ -1,0 +1,91 @@
+header {
+    background-color: #20123E;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #E5D6FC;
+    text-decoration: none;
+}
+
+.navLink {
+    font-family: "ivypresto-headline", serif;
+    font-weight: 100;
+}
+
+.navBar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.navMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.navLink {
+    transition: 0.7s ease;
+}
+
+.navLink:hover {
+    color: #C6997D;
+}
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #E5D6FC;
+}
+
+@media only screen and (min-width: 40rem) {
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.navMenu {
+    position:fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #20123E;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.navItem {
+    margin: 16px 0;
+}
+
+.navMenu.active {
+left: 0;
+}
+
+}
