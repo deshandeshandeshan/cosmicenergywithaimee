@@ -37,11 +37,11 @@ const Header = () => {
             </li>
           </ul>
 
-          <div className="hamburger">
+          {/* <div className="hamburger">
             <span className="bar"></span>
             <span className="bar"></span>
             <span className="bar"></span>
-          </div>
+          </div> */}
         </nav>
       </header>
     </div>

@@ -1,46 +1,42 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: .9rem;
+    gap: 0 1rem;
 }
 
 img, svg {
     display: block;
 }
 
-/* .centredVertically {
-    grid-template-rows: 2fr, 1fr, 1fr;
-} */
-
 .gridPadding {
     padding:  0 2rem 1rem 2rem;
 }
 
-.gridFirstSection {
+.homepageIntroductionGridItem {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-.firstSection {
+.homepageIntroduction {
     background-color: #20123E;
     height: 30rem;
 }
 
-.secondSection {
+.homepageServices {
     background-color: #4A2A93;
 }
 
-.thirdSection {
+.homepageAboutMe {
     background-color: #E8E3D6;
 }
 
-.gridSecondSection {
+.homepageServicesGrid {
     grid-template-rows: repeat(5, auto);
 }
 
-.gridThirdSection {
+.homepageAboutMeGrid {
     grid-template-rows: repeat(4, auto);
 }
 

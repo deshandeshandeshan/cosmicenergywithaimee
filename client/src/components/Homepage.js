@@ -7,12 +7,12 @@ import "./Homepage.css";
 
 const Homepage = () => {
   return (
-    <main className="mobileGrid">
+    <main>
       <div>
         <HomepageSvgGradient />
       </div>
-      <div className="firstSection grid centredVertically">
-        <p className="textColourCream textCentred gridFirstSection gridPadding">
+      <div className="homepageIntroduction grid centredVertically">
+        <p className="textColourCream textCentred homepageIntroductionGridItem gridPadding">
           Cosmic Energy is a spiritual company founded by Aimee. Our services
           are designed to help you connect with your inner self and elevate your
           consciousness. We value openness, oneness and spiritual growth, and
@@ -30,7 +30,7 @@ const Homepage = () => {
         />
       </div>
 
-      <div className="secondSection grid gridSecondSection">
+      <div className="homepageServices grid homepageServicesGrid">
         <h2 className="heading textColourCream textCentred itemA gridPadding">
           Services
         </h2>
@@ -61,7 +61,7 @@ const Homepage = () => {
         </Link>
       </div>
 
-      <div className="grid thirdSection gridThirdSection">
+      <div className="grid homepageAboutMe homepageAboutMeGrid">
         <h2 className="heading itemA textCentred">Hi, I'm Aimee</h2>
 
         <img
