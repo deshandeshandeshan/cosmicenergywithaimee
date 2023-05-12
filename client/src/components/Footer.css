@@ -1,0 +1,37 @@
+.footer {
+    background-color: #20123E;
+}
+
+.mobileGrid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 1rem;
+}
+
+.gridPadding {
+    padding:  2rem 2rem;
+}
+
+.navBrand {
+    padding-bottom: 1.5rem;
+}
+
+.textPadding {
+    padding-bottom: .2rem;
+}
+
+.footerContact {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #E5D6FC;
+}
+
+.footerGrid {
+    display: grid;
+}
+
+.footerGridItemB {
+    grid-column-start: 5;
+    text-align: right;
+}
+
