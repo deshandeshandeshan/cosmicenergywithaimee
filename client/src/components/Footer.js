@@ -10,7 +10,7 @@ const Footer = () => {
           src={LogoMark}
           alt="Cosmic energy logo"
           width="50"
-          className="navBrand"
+          className="footerBrand"
         />
 
         <ul className="footerContact">
