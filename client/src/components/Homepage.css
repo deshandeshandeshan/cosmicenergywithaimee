@@ -8,8 +8,48 @@ img, svg {
     display: block;
 }
 
+.displayGrid {
+    display: grid;
+}
+
+.buttonMargin {
+    margin: 0 2rem 3rem 2rem;
+}
+
+.button {
+    border: none;
+    text-align: center;
+    display: grid;
+    background-color: #8A26A0;
+    color: #E5D6FC;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+}
+
+.button:hover,
+.button:focus {
+    background: #20123E;
+}
+
+.button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+.contentPadding {
+    padding-bottom: 3rem;
+}
+
 .gridPadding {
-    padding:  0 2rem 1rem 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.titlePadding {
+    padding-top: 3rem;
 }
 
 .homepageIntroductionGridItem {

@@ -31,24 +31,24 @@ const Homepage = () => {
       </div>
 
       <div className="homepageServices grid homepageServicesGrid">
-        <h2 className="heading textColourCream textCentred itemA gridPadding">
+        <h2 className="heading textColourCream textCentred itemA gridPadding titlePadding contentPadding">
           Services
         </h2>
 
         <img
           src={reiki}
           alt="Side profile of someones face laying down as someone performs reiki on them"
-          className="image itemB gridPadding"
+          className="image itemB gridPadding contentPadding"
         />
 
-        <p className="textColourCream textCentred itemC gridPadding">
+        <p className="textColourCream textCentred itemC gridPadding contentPadding">
           At Cosmic Energy, we offer spiritual services that aim to help you
           connect with your inner self, elevate your consciousness and enhance
           your overall wellbeing. Our services include Reiki, Oracle Card
           Readings and Mediumship Readings.
         </p>
 
-        <p className="textColourCream textCentred itemD gridPadding">
+        <p className="textColourCream textCentred itemD gridPadding contentPadding">
           Whether you're seeking to release tension, gain insight or find
           comfort, our services are tailored to your individual needs and
           preferences and can be conducted in person, on video call or through
@@ -56,21 +56,23 @@ const Homepage = () => {
           Energy can support your spiritual journey.
         </p>
 
-        <Link to="/services" className="itemE">
-          <button>View Services</button>
+        <Link to="/services" className="itemE buttonMargin displayGrid">
+          <button className="button">View Services</button>
         </Link>
       </div>
 
       <div className="grid homepageAboutMe homepageAboutMeGrid">
-        <h2 className="heading itemA textCentred">Hi, I'm Aimee</h2>
+        <h2 className="heading itemA textCentred titlePadding gridPadding contentPadding">
+          Hi, I'm Aimee
+        </h2>
 
         <img
           src={aboutMe}
           alt="Someone Viewing a glowing green sky"
-          className="image itemB gridPadding"
+          className="image itemB gridPadding contentPadding"
         />
 
-        <p className="itemC textCentred gridPadding">
+        <p className="itemC textCentred gridPadding contentPadding">
           I have consciously been on my own spiritual journey since I was 17
           years of age. Fast forward a few years and some losses later, I
           finally chose to answer the “call” to unlock who I really am after
@@ -79,8 +81,8 @@ const Homepage = () => {
           clear blocks that are stopping their soul connection on their journey
           and who they want to be.
         </p>
-        <Link to="/aboutme" className="itemD gridPadding">
-          <button>More about me</button>
+        <Link to="/aboutme" className="itemD buttonMargin displayGrid">
+          <button className="button">More about me</button>
         </Link>
       </div>
     </main>

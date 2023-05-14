@@ -7,11 +7,11 @@
     gap: 0 1rem;
 }
 
-.gridPadding {
-    padding:  2rem 2rem;
+.footerGridPadding {
+    padding:  2rem;
 }
 
-.textPadding {
+.footerBrand {
     padding-bottom: 1.5rem;
 }
 

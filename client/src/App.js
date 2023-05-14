@@ -6,17 +6,20 @@ import Footer from "./components/Footer";
 import Services from "./components/Services";
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/aboutme" element={<AboutMe />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <ScrollToTop>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/aboutme" element={<AboutMe />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </ScrollToTop>
       <Footer />
     </div>
   );

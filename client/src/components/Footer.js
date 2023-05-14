@@ -4,7 +4,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer footerGrid mobileGrid gridPadding">
+    <footer className="footer footerGrid mobileGrid footerGridPadding">
       <div className="footerGridItemA">
         <img
           src={LogoMark}
