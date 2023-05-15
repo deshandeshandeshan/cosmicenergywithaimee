@@ -26,8 +26,8 @@ const Services = () => {
           className="reikiGridItemA image gridPadding"
         />
         <div className="reikiGridItemB gridPadding">
-          <h2 className="heading textCentred">Reiki</h2>
-          <p className="textCentred">
+          <h2 className="heading textCentred servicesPadding">Reiki</h2>
+          <p className="textCentred servicesPadding">
             A Japanese healing technique that promotes relaxation and balance in
             the body, mind and spirit. During a session, the practitioner will
             use light touch or hands hovering over your body to channel energy,
@@ -37,16 +37,16 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="servicesOutro mobileGrid">
-        <p className="outroGridItemA textCentred gridPadding">
+      <div className="servicesOutro mobileGrid gridPadding">
+        <p className="outroGridItemA textCentred">
           Our services are tailored to your individual needs and preferences,
           and can be conducted in person, on video call or through email, for
           your convenience. If you are interested in any of these services
           please get in contact with me via the contact form provided.
         </p>
 
-        <Link to="/contact" className="outroGridItemB gridPadding">
-          <button>Contact</button>
+        <Link to="/contact" className="outroGridItemB displayGrid">
+          <button className="button">Contact</button>
         </Link>
       </div>
     </main>

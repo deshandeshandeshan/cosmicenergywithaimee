@@ -11,26 +11,26 @@ const Header = () => {
             src={Logo}
             alt="Cosmic energy logo"
             width="200"
-            className="navBrand"
+            className="navBrand navPadding"
           />
 
-          <ul className="navMenu">
-            <li className="navItem">
+          <ul className="navMenu navPadding">
+            <li className="navItem navPadding">
               <Link to="/" className="navLink">
                 Homepage
               </Link>
             </li>
-            <li className="navItem">
+            <li className="navItem navPadding">
               <Link to="/services" className="navLink">
                 Services
               </Link>
             </li>
-            <li className="navItem">
+            <li className="navItem navPadding">
               <Link to="/contact" className="navLink">
                 Contact
               </Link>
             </li>
-            <li className="navItem">
+            <li className="navItem navPadding">
               <Link to="/aboutme" className="navLink">
                 About me
               </Link>

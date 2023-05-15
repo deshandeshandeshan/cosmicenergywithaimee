@@ -16,24 +16,48 @@ a {
     font-weight: 100;
 }
 
-.navBar {
-    min-height: 5rem;
-    display: grid;
-    align-items: center;
-    padding: 0 2rem;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.navMenu {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(4, 1fr);
-}
-
 .navLink {
     transition: 0.7s ease;
 }
 
 .navLink:hover {
     color: #C6997D;
+}
+
+.navMenu {
+    text-align: center;
+}
+
+.navPadding {
+    padding: 0 0 1rem 0;
+}
+
+.navBrand {
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+@media only screen and (min-width: 70rem) {
+    .navBrand {
+        margin: 0;
+        padding-top: 0;
+    }
+
+    .navPadding {
+        padding: 0 ;
+    }
+
+    .navMenu {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .navBar {
+        min-height: 5rem;
+        display: grid;
+        align-items: center;
+        padding: 0 2rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

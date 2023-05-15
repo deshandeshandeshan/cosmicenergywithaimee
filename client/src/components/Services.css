@@ -20,9 +20,13 @@
     gap: 0 1rem;
 }
 
+.servicesPadding {
+    padding-bottom: 1rem
+}
+
 .servicesIntro {
     display: grid;
-    min-height: 30rem;
+    max-height: 40rem;
     background-color: #20123E;
     grid-template-rows: repeat(4, 1fr);
 }
@@ -54,6 +58,7 @@
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
+    padding-top: 2rem;
 }
 
 .servicesOutro {
@@ -61,7 +66,8 @@
     min-height: 20rem;
     background-color: #4A2A93;
     grid-template-rows: repeat(2, 1fr);
-    padding: 4rem 0;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .outroGridItemA {
@@ -76,5 +82,6 @@
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 2;
-    grid-row-end: 3;
+    max-height: 2rem;
+    margin: auto 0;
 }
