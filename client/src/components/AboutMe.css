@@ -1,0 +1,13 @@
+.aboutMeFirstSection {
+background-color: #4A2A93;
+color: #E8E3D6;
+}
+
+.aboutMeSecondSection {
+background-color: #E8E3D6;
+color: #20123E;
+}
+
+.aboutMeSectionPadding {
+    padding: 4rem 2rem;
+}

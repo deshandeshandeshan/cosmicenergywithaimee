@@ -1,0 +1,42 @@
+.contactPage {
+    background-color: #20123E;
+    padding: 0 2rem 4rem;
+}
+
+.colourLightPurple {
+    color: #E5D6FC;
+}
+
+.introPadding {
+    padding-bottom: 2rem;
+}
+
+.formMargin {
+    margin-bottom: 1rem;
+}
+
+.buttonMargin{
+    margin-top: 2rem;
+}
+
+.contactForm {
+    font-family: "ivypresto-headline", serif;
+    font-weight: 100;
+    display: grid;
+}
+
+input {
+    width: 100%;
+    white-space: pre-line;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    outline: none;
+}
+
+.inputFieldMessage {
+    outline: none;
+}
+
+.inputField {
+    padding: .5rem;
+}

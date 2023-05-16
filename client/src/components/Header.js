@@ -11,7 +11,7 @@ const Header = () => {
             src={Logo}
             alt="Cosmic energy logo"
             width="200"
-            className="navBrand navPadding"
+            className="navBrand navBrandPadding"
           />
 
           <ul className="navMenu navPadding">

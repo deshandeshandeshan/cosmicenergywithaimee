@@ -1,25 +1,59 @@
+import "./Contact.css";
+
 const Contact = () => {
   return (
     <main>
-      <div>
-        <h1 className="heading">Contact</h1>
-        <p>Enquire here for a service and I’ll get in contact</p>
-        <form>
+      <div className="contactPage">
+        <h1 className="contactHeading colourLightPurple">Contact</h1>
+        <p className="contactIntro introPadding colourLightPurple">
+          Enquire here for a service and I’ll get in contact
+        </p>
+        <form className="contactForm colourLightPurple">
           <label for="name">Name:</label>
-          <input type="text" id="name" name="name" />
+          <input
+            className="formMargin inputField"
+            type="text"
+            id="name"
+            name="name"
+          />
 
           <label for="email">Email:</label>
-          <input type="text" id="email" name="email" />
+          <input
+            type="text"
+            id="email"
+            name="email"
+            className="inputField formMargin"
+          />
 
           <label for="service">Service:</label>
-          <select name="services" id="service">
+          <select
+            className="inputField formMargin"
+            name="services"
+            id="service"
+          >
             <option value="reiki">Reiki</option>
             <option value="oracle">Oracle card reading</option>
             <option value="medium">Mediumship reading</option>
           </select>
 
           <label for="message">Message:</label>
-          <input type="text" id="message" name="message" />
+          <textarea
+            type="text"
+            id="message"
+            name="message"
+            cols="60"
+            rows="8"
+            className="inputFieldMessage inputField"
+          />
+
+          <button
+            className="button buttonMargin"
+            type="submit"
+            form="form1"
+            value="Submit"
+          >
+            Submit
+          </button>
         </form>
       </div>
     </main>
