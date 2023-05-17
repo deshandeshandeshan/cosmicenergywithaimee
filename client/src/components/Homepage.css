@@ -1,11 +1,17 @@
-.grid {
+.grid, .homepageIntroduction {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0 1rem;
+    padding: 0 2rem;
 }
 
 img, svg {
     display: block;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
 }
 
 .displayGrid {
@@ -39,16 +45,16 @@ img, svg {
     outline-offset: -4px;
 }
 
-.contentPadding {
+.contentPadding, .imagePadding {
     padding-bottom: 3rem;
 }
 
-.gridPadding {
+.gridPadding, .sectionOnegridPadding {
     padding-left: 2rem;
     padding-right: 2rem;
 }
 
-.titlePadding {
+.titlePadding, .servicesTitlePadding, .aboutMeTitlePadding {
     padding-top: 3rem;
 }
 
@@ -88,37 +94,144 @@ img, svg {
     text-align: center;
 }
 
-.image {
-    max-width: 100%;
-    height: auto;
-}
-
-.itemA {
+.servicesItemA, .aboutMeItemA {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 1;
 }
 
-.itemB {
+.servicesItemB, .aboutMeItemB {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 2;
 }
 
-.itemC {
+.servicesItemC, .aboutMeItemC {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 3;
 }
 
-.itemD {
+.servicesItemD {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 4;
 }
 
-.itemE {
-    grid-column-start: 1;
-    grid-column-end: 5;
+.aboutMeButtonItem {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+}
+
+.servicesButtonItem {
+    grid-column-start: 2;
+    grid-column-end: 4;
     grid-row-start: 5;
+}
+
+@media only screen and (min-width: 40rem) {
+    .homepageSectionOne {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .image {
+        object-fit: cover;
+        min-height: 100%;
+    }
+
+    .homepageIntroduction {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .sectionOnegridPadding {
+        padding-left: 5rem;
+        padding-right: .5rem;
+    }
+
+    .homepageIntroductionGridItem {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        gap: 0 1rem;
+        padding: 5rem;
+    }
+
+    .homepageServicesGrid {
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .textCentred {
+        text-align: left;
+    }
+
+    .servicesItemA {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 2;
+    }
+
+    .servicesItemB {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+
+    .servicesItemC {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 3;
+    }
+
+    .servicesItemD {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 4;
+    }
+
+    .servicesButtonItem {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 5;
+    }
+
+    .aboutMeItemA {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+    }
+
+    .aboutMeItemB {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+
+    .aboutMeItemC {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+    }
+
+    .aboutMeButtonItem {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;
+    }
+
+    .servicesTitlePadding, .aboutMeTitlePadding {
+        padding-top: 0;
+    }
+
+    .imagePadding {
+        padding-bottom: 0;
+    }
 }

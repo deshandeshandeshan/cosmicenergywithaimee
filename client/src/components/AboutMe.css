@@ -11,3 +11,11 @@ color: #20123E;
 .aboutMeSectionPadding {
     padding: 4rem 2rem;
 }
+
+.aboutMeButton {
+    width: 100%;
+}
+
+.aboutMeTextPadding {
+    padding-bottom: 2rem;
+}

@@ -36,13 +36,13 @@ const AboutMe = () => {
           have a profound effect on our reality and how we respond to things
           happening around us.
         </p>
-        <p className="secondSectionText">
+        <p className="secondSectionText aboutMeTextPadding">
           Here at It’s Cosmic Energy, my goal is to help you clear any blockages
           that are stopping you from aligning with your full potential and your
           higher self.
         </p>
         <Link to="/contact">
-          <button className="button">Contact</button>
+          <button className="button aboutMeButton">Contact</button>
         </Link>
       </div>
     </main>
