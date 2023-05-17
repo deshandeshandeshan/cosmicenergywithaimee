@@ -5,8 +5,8 @@ import "./Services.css";
 const Services = () => {
   return (
     <main>
-      <div className="servicesIntro mobileGrid">
-        <div className="servicesIntroGridItem gridPadding">
+      <div className="servicesIntro servicesGrid">
+        <div className="servicesIntroGridItem">
           <h1 className="heading gridItemA textColourLightPurple">Services</h1>
           <p className="gridItemB textColourLightPurple">
             We offer a range of spiritual services designed to help you connect
@@ -19,13 +19,13 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="servicesReiki mobileGrid">
+      <div className="servicesReiki servicesGrid">
         <img
           src={reiki}
           alt="Side profile of someones face laying down as someone performs reiki on them"
-          className="reikiGridItemA image gridPadding"
+          className="reikiGridItemA image"
         />
-        <div className="reikiGridItemB gridPadding">
+        <div className="reikiGridItemB">
           <h2 className="heading textCentred servicesPadding">Reiki</h2>
           <p className="textCentred servicesPadding">
             A Japanese healing technique that promotes relaxation and balance in
@@ -37,7 +37,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="servicesOutro mobileGrid gridPadding">
+      <div className="servicesOutro servicesGrid">
         <p className="outroGridItemA textCentred">
           Our services are tailored to your individual needs and preferences,
           and can be conducted in person, on video call or through email, for

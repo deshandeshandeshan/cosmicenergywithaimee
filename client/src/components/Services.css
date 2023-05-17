@@ -15,9 +15,11 @@
     color: #E5D6FC;
 }
 
-.mobileGrid {
+.servicesGrid {
     grid-template-columns: repeat(4, 1fr);
     gap: 0 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .servicesPadding {
@@ -43,7 +45,8 @@
     min-height: 30rem;
     background-color: #E8E3D6;
     grid-template-rows: repeat(2, auto);
-    padding: 4rem 0;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .reikiGridItemA {
@@ -58,7 +61,6 @@
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
-    padding-top: 2rem;
 }
 
 .servicesOutro {
@@ -84,4 +86,59 @@
     grid-column-end: 4;
     grid-row-start: 2;
     margin: auto 0;
+}
+
+@media only screen and (min-width: 40rem) {
+    .servicesIntro {
+        display: grid;
+        max-height: 40rem;
+        background-color: #20123E;
+        grid-template-rows: repeat(4, 1fr);
+        gap: 0 1rem;
+    }
+
+    .servicesGrid {
+        grid-template-columns: repeat(8, 1fr);
+        gap: 0 1rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .servicesIntroGridItem {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .reikiGridItemA {
+        grid-column-start: 3;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .reikiGridItemB {
+        grid-column-start: 3;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding-top: 2rem;
+    }
+
+    .outroGridItemA {
+        grid-column-start: 3;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding-bottom: 2rem;
+        color: #E8E3D6;
+    }
+    
+    .outroGridItemB {
+        grid-column-start: 3;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        margin: auto 0;
+    }
 }
