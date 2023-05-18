@@ -40,3 +40,30 @@ input {
 .inputField {
     padding: .5rem;
 }
+
+@media only screen and (min-width: 40rem) {
+    .contactGrid {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 0 1rem;
+        padding: 5rem;
+    }
+
+    .contactFormItemA {
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+
+    .contactFormItemB {
+        grid-column-start: 3;
+        grid-column-end: 7;
+        grid-row-start: 2;
+    }
+
+    .contactFormItemC {
+        grid-column-start: 3;
+        grid-column-end: 7;
+        grid-row-start: 3;
+    }
+}

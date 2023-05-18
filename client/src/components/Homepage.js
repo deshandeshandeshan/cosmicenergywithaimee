@@ -12,7 +12,7 @@ const Homepage = () => {
         <HomepageSvgGradient />
       </div>
       <div className="homepageSectionOne">
-        <div className="homepageIntroduction centredVertically sectionOnegridPadding">
+        <div className="homepageIntroduction sectionOnegridPadding gridCentered">
           <p className="textColourCream textCentred homepageIntroductionGridItem">
             Cosmic Energy is a spiritual company founded by Aimee. Our services
             are designed to help you connect with your inner self and elevate

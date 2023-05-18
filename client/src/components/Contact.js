@@ -3,12 +3,14 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <main>
-      <div className="contactPage">
-        <h1 className="contactHeading colourLightPurple">Contact</h1>
-        <p className="contactIntro introPadding colourLightPurple">
+      <div className="contactPage contactGrid">
+        <h1 className="contactHeading colourLightPurple contactFormItemA">
+          Contact
+        </h1>
+        <p className="contactIntro introPadding colourLightPurple contactFormItemB">
           Enquire here for a service and I’ll get in contact
         </p>
-        <form className="contactForm colourLightPurple">
+        <form className="contactForm colourLightPurple contactFormItemC">
           <label for="name">Name:</label>
           <input
             className="formMargin inputField"

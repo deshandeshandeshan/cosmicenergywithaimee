@@ -5,6 +5,11 @@
     padding: 0 2rem;
 }
 
+.gridCentered {
+    align-items: center;
+    min-height: 40rem;
+}
+
 img, svg {
     display: block;
 }
@@ -61,8 +66,6 @@ img, svg {
 .homepageIntroductionGridItem {
     grid-column-start: 1;
     grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
 }
 
 .homepageIntroduction {
