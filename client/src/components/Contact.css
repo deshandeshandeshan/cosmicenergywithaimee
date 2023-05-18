@@ -67,3 +67,28 @@ input {
         grid-row-start: 3;
     }
 }
+
+@media only screen and (min-width: 70rem) {
+    .contactGrid {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(3, auto);
+        padding: 4.375rem;
+    }
+
+    .contactFormItemA {
+        grid-column-start: 4;
+        grid-row-start: 1;
+    }
+
+    .contactFormItemB {
+        grid-column-start: 4;
+        grid-column-end: 10;
+        grid-row-start: 2;
+    }
+
+    .contactFormItemC {
+        grid-column-start: 4;
+        grid-column-end: 10;
+        grid-row-start: 3;
+    }
+}

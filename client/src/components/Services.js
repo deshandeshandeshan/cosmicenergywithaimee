@@ -25,9 +25,9 @@ const Services = () => {
           alt="Side profile of someones face laying down as someone performs reiki on them"
           className="reikiGridItemA image"
         />
-        <div className="reikiGridItemB">
-          <h2 className="heading textCentred servicesPadding">Reiki</h2>
-          <p className="textCentred servicesPadding">
+        <div className="reikiGridItemB servicesItemAlign">
+          <h2 className="heading servicesTextAlign servicesPadding ">Reiki</h2>
+          <p className="servicesTextAlign servicesPadding">
             A Japanese healing technique that promotes relaxation and balance in
             the body, mind and spirit. During a session, the practitioner will
             use light touch or hands hovering over your body to channel energy,
@@ -38,7 +38,7 @@ const Services = () => {
       </div>
 
       <div className="servicesOutro servicesGrid">
-        <p className="outroGridItemA textCentred">
+        <p className="outroGridItemA servicesTextAlign">
           Our services are tailored to your individual needs and preferences,
           and can be conducted in person, on video call or through email, for
           your convenience. If you are interested in any of these services

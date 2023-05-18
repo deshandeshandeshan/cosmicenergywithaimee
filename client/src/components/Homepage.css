@@ -93,7 +93,7 @@ img, svg {
     color: #E8E3D6;
 }
 
-.textCentred {
+.textAlign {
     text-align: center;
 }
 
@@ -144,6 +144,10 @@ img, svg {
         min-height: 100%;
     }
 
+    .textAlign {
+        text-align: left;
+    }
+
     .homepageIntroduction {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -168,10 +172,6 @@ img, svg {
 
     .homepageServicesGrid {
         grid-template-rows: repeat(6, auto);
-    }
-
-    .textCentred {
-        text-align: left;
     }
 
     .servicesItemA {
@@ -236,5 +236,82 @@ img, svg {
 
     .imagePadding {
         padding-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 70rem) {
+    .homepageIntroduction {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .sectionOnegridPadding {
+        padding-left: 4.375rem;
+        padding-right: .5rem;
+    }
+
+    .homepageIntroductionGridItem {
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+
+    .grid {
+        grid-template-columns: repeat(12, 1fr);
+        padding: 4.375rem;
+    }
+
+    .servicesItemA {
+        grid-column-start: 8;
+        grid-column-end: 12;
+        grid-row-start: 2;
+    }
+
+    .servicesItemB {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 6;
+    }
+
+    .servicesItemC {
+        grid-column-start: 8;
+        grid-column-end: 12;
+        grid-row-start: 3;
+    }
+
+    .servicesItemD {
+        grid-column-start: 8;
+        grid-column-end: 12;
+        grid-row-start: 4;
+    }
+
+    .servicesButtonItem {
+        grid-column-start: 8;
+        grid-column-end: 10;
+        grid-row-start: 5;
+    }
+
+    .homepageAboutMeItemA {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 2;
+    }
+
+    .homepageAboutMeItemB {
+        grid-column-start: 8;
+        grid-column-end: 12;
+        grid-row-start: 2;
+        grid-row-end: 5;
+    }
+
+    .homepageAboutMeItemC {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 3;
+    }
+
+    .aboutMeButtonItem {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 4;
     }
 }

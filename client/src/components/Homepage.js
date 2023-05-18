@@ -13,7 +13,7 @@ const Homepage = () => {
       </div>
       <div className="homepageSectionOne">
         <div className="homepageIntroduction sectionOnegridPadding gridCentered">
-          <p className="textColourCream textCentred homepageIntroductionGridItem">
+          <p className="textColourCream textAlign homepageIntroductionGridItem">
             Cosmic Energy is a spiritual company founded by Aimee. Our services
             are designed to help you connect with your inner self and elevate
             your consciousness. We value openness, oneness and spiritual growth,
@@ -31,7 +31,7 @@ const Homepage = () => {
       </div>
 
       <div className="homepageServices grid homepageServicesGrid">
-        <h2 className="heading textColourCream textCentred servicesItemA servicesTitlePadding contentPadding">
+        <h2 className="heading textColourCream textAlign servicesItemA servicesTitlePadding contentPadding">
           Services
         </h2>
 
@@ -41,14 +41,14 @@ const Homepage = () => {
           className="image servicesItemB imagePadding"
         />
 
-        <p className="textColourCream textCentred servicesItemC contentPadding">
+        <p className="textColourCream textAlign servicesItemC contentPadding">
           At Cosmic Energy, we offer spiritual services that aim to help you
           connect with your inner self, elevate your consciousness and enhance
           your overall wellbeing. Our services include Reiki, Oracle Card
           Readings and Mediumship Readings.
         </p>
 
-        <p className="textColourCream textCentred servicesItemD contentPadding">
+        <p className="textColourCream textAlign servicesItemD contentPadding">
           Whether you're seeking to release tension, gain insight or find
           comfort, our services are tailored to your individual needs and
           preferences and can be conducted in person, on video call or through
@@ -62,7 +62,7 @@ const Homepage = () => {
       </div>
 
       <div className="grid homepageAboutMe homepageAboutMeGrid">
-        <h2 className="heading homepageAboutMeItemA textCentred aboutMeTitlePadding contentPadding">
+        <h2 className="heading homepageAboutMeItemA textAlign aboutMeTitlePadding contentPadding">
           Hi, I'm Aimee
         </h2>
 
@@ -72,7 +72,7 @@ const Homepage = () => {
           className="image homepageAboutMeItemB imagePadding"
         />
 
-        <p className="homepageAboutMeItemC textCentred contentPadding">
+        <p className="homepageAboutMeItemC textAlign contentPadding">
           I have consciously been on my own spiritual journey since I was 17
           years of age. Fast forward a few years and some losses later, I
           finally chose to answer the “call” to unlock who I really am after
