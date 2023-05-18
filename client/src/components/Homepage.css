@@ -97,19 +97,19 @@ img, svg {
     text-align: center;
 }
 
-.servicesItemA, .aboutMeItemA {
+.servicesItemA, .homepageAboutMeItemA {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 1;
 }
 
-.servicesItemB, .aboutMeItemB {
+.servicesItemB, .homepageAboutMeItemB {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 2;
 }
 
-.servicesItemC, .aboutMeItemC {
+.servicesItemC, .homepageAboutMeItemC {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 3;
@@ -205,20 +205,20 @@ img, svg {
         grid-row-start: 5;
     }
 
-    .aboutMeItemA {
+    .homepageAboutMeItemA {
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 2;
     }
 
-    .aboutMeItemB {
+    .homepageAboutMeItemB {
         grid-column-start: 5;
         grid-column-end: 9;
         grid-row-start: 3;
         grid-row-end: 5;
     }
 
-    .aboutMeItemC {
+    .homepageAboutMeItemC {
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 3;

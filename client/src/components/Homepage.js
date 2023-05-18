@@ -62,17 +62,17 @@ const Homepage = () => {
       </div>
 
       <div className="grid homepageAboutMe homepageAboutMeGrid">
-        <h2 className="heading aboutMeItemA textCentred aboutMeTitlePadding contentPadding">
+        <h2 className="heading homepageAboutMeItemA textCentred aboutMeTitlePadding contentPadding">
           Hi, I'm Aimee
         </h2>
 
         <img
           src={aboutMe}
           alt="Someone Viewing a glowing green sky"
-          className="image aboutMeItemB imagePadding"
+          className="image homepageAboutMeItemB imagePadding"
         />
 
-        <p className="aboutMeItemC textCentred contentPadding">
+        <p className="homepageAboutMeItemC textCentred contentPadding">
           I have consciously been on my own spiritual journey since I was 17
           years of age. Fast forward a few years and some losses later, I
           finally chose to answer the “call” to unlock who I really am after
