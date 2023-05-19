@@ -4,11 +4,11 @@ const Contact = () => {
   return (
     <main>
       <div className="contactPage contactGrid">
-        <h1 className="contactHeading colourLightPurple contactFormItemA">
+        <h1 className="contactTitlePadding colourLightPurple contactFormItemA">
           Contact
         </h1>
         <p className="contactIntro introPadding colourLightPurple contactFormItemB">
-          Enquire here for a service and I’ll get in contact
+          Enquire here for a service and I’ll be in touch
         </p>
         <form className="contactForm colourLightPurple contactFormItemC">
           <label for="name">Name:</label>
@@ -49,7 +49,7 @@ const Contact = () => {
           />
 
           <button
-            className="button buttonMargin"
+            className="formButton formButtonMargin"
             type="submit"
             form="form1"
             value="Submit"

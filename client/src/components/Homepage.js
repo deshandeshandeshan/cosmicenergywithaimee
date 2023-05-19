@@ -13,7 +13,7 @@ const Homepage = () => {
       </div>
       <div className="homepageSectionOne">
         <div className="homepageIntroduction sectionOnegridPadding gridCentered">
-          <p className="textColourCream textAlign homepageIntroductionGridItem">
+          <p className="textColourLightPurple textAlign homepageIntroductionGridItem">
             Cosmic Energy is a spiritual company founded by Aimee. Our services
             are designed to help you connect with your inner self and elevate
             your consciousness. We value openness, oneness and spiritual growth,
@@ -31,7 +31,7 @@ const Homepage = () => {
       </div>
 
       <div className="homepageServices grid homepageServicesGrid">
-        <h2 className="heading textColourCream textAlign servicesItemA servicesTitlePadding contentPadding">
+        <h2 className="heading textColourCream textAlign servicesItemA servicesTitlePadding homepageTitlePadding">
           Services
         </h2>
 
@@ -48,7 +48,7 @@ const Homepage = () => {
           Readings and Mediumship Readings.
         </p>
 
-        <p className="textColourCream textAlign servicesItemD contentPadding">
+        <p className="textColourCream textAlign servicesItemD">
           Whether you're seeking to release tension, gain insight or find
           comfort, our services are tailored to your individual needs and
           preferences and can be conducted in person, on video call or through
@@ -62,7 +62,7 @@ const Homepage = () => {
       </div>
 
       <div className="grid homepageAboutMe homepageAboutMeGrid">
-        <h2 className="heading homepageAboutMeItemA textAlign aboutMeTitlePadding contentPadding">
+        <h2 className="heading homepageAboutMeItemA textAlign homepageTitlePadding">
           Hi, I'm Aimee
         </h2>
 

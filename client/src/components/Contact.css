@@ -12,11 +12,38 @@
 }
 
 .formMargin {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
-.buttonMargin{
-    margin-top: 2rem;
+.formButtonMargin{
+    margin: 2rem 5rem 3rem;
+}
+
+.contactTitlePadding {
+    padding-bottom: 1rem
+}
+
+.formButton {
+    border: none;
+    text-align: center;
+    display: grid;
+    background-color: #8A26A0;
+    color: #E5D6FC;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+}
+
+.formButton:hover,
+.formButton:focus {
+    background: #4A2A93;
+}
+
+.formButton:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
 }
 
 .contactForm {

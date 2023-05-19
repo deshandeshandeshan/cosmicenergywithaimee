@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0 1rem;
-    padding: 0 2rem;
+    padding: 4rem 2rem;
 }
 
 .gridCentered {
@@ -10,7 +10,7 @@
     min-height: 40rem;
 }
 
-img, svg {
+.image, svg {
     display: block;
 }
 
@@ -23,8 +23,12 @@ img, svg {
     display: grid;
 }
 
+.homepageTitlePadding {
+    padding-bottom: 3rem;
+}
+
 .buttonMargin {
-    margin: 0 2rem 3rem 2rem;
+    margin:  2rem 3rem 2rem;
 }
 
 .button {
@@ -46,7 +50,7 @@ img, svg {
 }
 
 .button:focus {
-    outline: 1px solid #fff;
+    outline: 1px solid #E5D6FC;
     outline-offset: -4px;
 }
 
@@ -54,13 +58,9 @@ img, svg {
     padding-bottom: 3rem;
 }
 
-.gridPadding, .sectionOnegridPadding {
+.sectionOnegridPadding {
     padding-left: 2rem;
     padding-right: 2rem;
-}
-
-.titlePadding, .servicesTitlePadding, .aboutMeTitlePadding {
-    padding-top: 3rem;
 }
 
 .homepageIntroductionGridItem {
@@ -91,6 +91,10 @@ img, svg {
 
 .textColourCream {
     color: #E8E3D6;
+}
+
+.textColourLightPurple {
+    color: #E5D6FC
 }
 
 .textAlign {
@@ -131,9 +135,18 @@ img, svg {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 5;
+    margin-top: 3rem;
 }
 
 @media only screen and (min-width: 40rem) {
+    .buttonMargin {
+        margin-top: 3rem;
+    }
+
+    .homepageTitlePadding {
+        padding-bottom: 1rem
+    }
+
     .homepageSectionOne {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -167,7 +180,7 @@ img, svg {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         gap: 0 1rem;
-        padding: 5rem;
+        padding: 8rem 5rem;
     }
 
     .homepageServicesGrid {
@@ -184,7 +197,7 @@ img, svg {
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 3;
-        grid-row-end: 5;
+        grid-row-end: 6;
     }
 
     .servicesItemC {
@@ -202,7 +215,6 @@ img, svg {
     .servicesButtonItem {
         grid-column-start: 5;
         grid-column-end: 9;
-        grid-row-start: 5;
     }
 
     .homepageAboutMeItemA {
@@ -313,5 +325,6 @@ img, svg {
         grid-column-start: 2;
         grid-column-end: 4;
         grid-row-start: 4;
+        align-items:start;
     }
 }

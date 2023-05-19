@@ -1,11 +1,15 @@
 .aboutMeSectionOne {
-background-color: #4A2A93;
-color: #E8E3D6;
+    background-color: #4A2A93;
+    color: #E8E3D6;
+}
+
+.aboutMeTitlePadding {
+    padding-bottom: 1rem
 }
 
 .aboutMeSecondSection {
-background-color: #E8E3D6;
-color: #20123E;
+    background-color: #E8E3D6;
+    color: #20123E;
 }
 
 .aboutMeSectionPadding, .aboutMeIntroductionPadding {
@@ -16,8 +20,8 @@ color: #20123E;
     width: 100%;
 }
 
-.aboutMeTextPadding {
-    padding-bottom: 2rem;
+.aboutMePadding {
+    padding-bottom: 3rem;
 }
 
 @media only screen and (min-width: 40rem) {
@@ -26,9 +30,14 @@ color: #20123E;
         grid-template-columns: repeat(2, 50%);
     }
 
+    .aboutMeHeaderImage {
+        height: 40rem; 
+        width: 100%;
+        object-position: center; 
+    }
+
     .aboutMeSectionOneimage {
         object-fit: cover;
-        max-width: 100%;
         min-height: 100%;
     }
 
@@ -102,7 +111,7 @@ color: #20123E;
 
     .aboutMeItemA {
         grid-column-start: 2;
-        grid-column-end: 7;
+        grid-column-end: 6;
         grid-row-start: 1;
         grid-row-end: 2;
     }

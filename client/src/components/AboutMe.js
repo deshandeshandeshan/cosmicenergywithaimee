@@ -9,12 +9,12 @@ const AboutMe = () => {
       <img
         src={crystals}
         alt="dreamy setting with crystals and statues"
-        width="100%"
+        className="image aboutMeHeaderImage"
       />
       <div className="aboutMeSectionOne">
         <div className="aboutMeIntroductionPadding aboutMeIntroduction">
           <div className="aboutMeIntroductionGridItemA">
-            <h1 className="firstSectionHeading">Hi, I'm Aimee</h1>
+            <h1 className="aboutMeTitlePadding">Hi, I'm Aimee</h1>
             <p className="firstSectionText">
               I have consciously been on my own spiritual journey since I was 17
               years of age. Fast forward a few years and some losses later, I
@@ -29,19 +29,19 @@ const AboutMe = () => {
         <img
           src={skyMoon}
           alt="ethereal sky setting with clouds and crecent moon"
-          className="aboutMeSectionOneimage"
+          className="aboutMeSectionOneimage image"
         />
       </div>
 
       <div className="aboutMeSecondSection aboutMeSectionPadding aboutMeGrid">
-        <p className="secondSectionText aboutMeItemA">
+        <p className="secondSectionText aboutMeItemA aboutMePadding">
           We often hear it nowadays don’t we - how we are all made up of energy,
           and that is true for everything in our world, so when your own
           internal energy system (the chakras) are out of sync, it really does
           have a profound effect on our reality and how we respond to things
           happening around us.
         </p>
-        <p className="secondSectionText aboutMeTextPadding aboutMeItemB">
+        <p className="secondSectionText aboutMeTextPadding aboutMeItemB aboutMePadding">
           Here at It’s Cosmic Energy, my goal is to help you clear any blockages
           that are stopping you from aligning with your full potential and your
           higher self.
