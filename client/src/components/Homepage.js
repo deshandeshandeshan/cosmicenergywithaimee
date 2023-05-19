@@ -3,13 +3,26 @@ import tree from "../images/tree.jpg";
 import reiki from "../images/reiki.jpg";
 import aboutMe from "../images/about_me.jpg";
 import HomepageSvgGradient from "./HomepageSvgGradient";
+import headerGradient from "../images/Header_Gradient.png";
 import "./Homepage.css";
 
 const Homepage = () => {
   return (
     <main>
-      <div>
-        <HomepageSvgGradient />
+      <div className="homepageHeaderGradient">
+        <h1 className="headerGradientItemB headerGridPadding gradientGridAlign textColourCream">
+          Navigating
+        </h1>
+        <h1 className="headerGradientItemC headerGridPadding gradientGridAlign textColourCream">
+          from
+        </h1>
+        <h1 className="headerGradientItemD headerGridPadding gradientGridAlign textColourCream">
+          your
+        </h1>
+        <h1 className="headerGradientItemE headerGridPadding gradientGridAlign textColourCream">
+          heartspace
+        </h1>
+        {/* <HomepageSvgGradient /> */}
       </div>
       <div className="homepageSectionOne">
         <div className="homepageIntroduction sectionOnegridPadding gridCentered">

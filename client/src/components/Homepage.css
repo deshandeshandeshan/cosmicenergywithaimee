@@ -5,6 +5,48 @@
     padding: 4rem 2rem;
 }
 
+.headerGradient {
+    min-height: 30rem;
+}
+
+.homepageHeaderGradient {
+    height: 50rem;
+    width: 100%;
+    background-position: center center;
+    background-image: url("../images/Header_Gradient.png");
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0 2rem;
+    gap: 0 1rem;
+
+}
+
+.gradientGridAlign {
+    display: grid;
+    align-items: center;
+}
+
+.headerGradientItemB {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.headerGradientItemC {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.headerGradientItemD {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.headerGradientItemE {
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+
 .gridCentered {
     align-items: center;
     min-height: 40rem;
