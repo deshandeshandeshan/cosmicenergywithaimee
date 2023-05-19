@@ -181,6 +181,31 @@
 }
 
 @media only screen and (min-width: 40rem) {
+    .homepageHeaderGradient {
+        grid-template-columns: repeat(8, 1fr);
+        padding: 0 5rem;
+    }
+    
+    .headerGradientItemB {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+    
+    .headerGradientItemC {
+        grid-column-start: 7;
+        grid-row-start: 2;
+    }
+    
+    .headerGradientItemD {
+        grid-column-start: 2;
+        grid-row-start: 3;
+    }
+    
+    .headerGradientItemE {
+        grid-column-start: 5;
+        grid-row-start: 4;
+    }
+
     .buttonMargin {
         margin-top: 3rem;
     }
@@ -222,7 +247,7 @@
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         gap: 0 1rem;
-        padding: 8rem 5rem;
+        padding: 12rem 5rem;
     }
 
     .homepageServicesGrid {
@@ -294,6 +319,32 @@
 }
 
 @media only screen and (min-width: 70rem) {
+    .homepageHeaderGradient {
+        grid-template-columns: repeat(12, 1fr);
+        padding: 0 4.375rem;
+    }
+    
+    .headerGradientItemB {
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+    
+    .headerGradientItemC {
+        grid-column-start: 8;
+        grid-row-start: 2;
+    }
+    
+    .headerGradientItemD {
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
+    
+    .headerGradientItemE {
+        grid-column-start: 9;
+        grid-row-start: 4;
+    }
+
+
     .homepageIntroduction {
         grid-template-columns: repeat(6, 1fr);
     }
@@ -310,7 +361,7 @@
 
     .grid {
         grid-template-columns: repeat(12, 1fr);
-        padding: 4.375rem;
+        padding: 12rem 4.375rem;
     }
 
     .servicesItemA {
