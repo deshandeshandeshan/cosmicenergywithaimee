@@ -79,6 +79,11 @@
 }
 
 @media only screen and (min-width: 40rem) {
+.servicesOutro {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
     .servicesIntro {
         display: grid;
         max-height: 40rem;

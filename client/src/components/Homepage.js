@@ -18,7 +18,7 @@ const Homepage = () => {
         <h1 className="headerGradientItemD headerGridPadding gradientGridAlign textColourCream">
           your
         </h1>
-        <h1 className="headerGradientItemE headerGridPadding gradientGridAlign textColourCream">
+        <h1 className="headerGradientItemE headerGridPadding gradientGridAlign textColourLightPurple">
           heartspace
         </h1>
         {/* <HomepageSvgGradient /> */}
