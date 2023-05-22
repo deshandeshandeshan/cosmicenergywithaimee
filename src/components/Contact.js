@@ -5,13 +5,17 @@ const Contact = () => {
     <main>
       <div className="contactPage contactGrid">
         <h1 className="contactTitlePadding colourLightPurple contactFormItemA">
-          Contact
+          Get in touch with me!
         </h1>
         <p className="contactIntro introPadding colourLightPurple contactFormItemB">
           Enquire here for a service and I’ll be in touch
         </p>
-        <form className="contactForm colourLightPurple contactFormItemC">
-          <label for="name">Name:</label>
+        <form
+          className="contactForm colourLightPurple contactFormItemC"
+          action="https://formsubmit.co/deshan.mclachlan0@gmail.com"
+          method="POST"
+        >
+          <label htmlFor="name">Name:</label>
           <input
             className="formMargin inputField"
             type="text"
@@ -19,7 +23,7 @@ const Contact = () => {
             name="name"
           />
 
-          <label for="email">Email:</label>
+          <label htmlFor="email">Email:</label>
           <input
             type="text"
             id="email"
@@ -27,7 +31,7 @@ const Contact = () => {
             className="inputField formMargin"
           />
 
-          <label for="service">Service:</label>
+          <label htmlFor="service">Service:</label>
           <select
             className="inputField formMargin"
             name="services"
@@ -38,7 +42,7 @@ const Contact = () => {
             <option value="medium">Mediumship reading</option>
           </select>
 
-          <label for="message">Message:</label>
+          <label htmlFor="message">Message:</label>
           <textarea
             type="text"
             id="message"
@@ -51,7 +55,6 @@ const Contact = () => {
           <button
             className="formButton formButtonMargin"
             type="submit"
-            form="form1"
             value="Submit"
           >
             Submit
