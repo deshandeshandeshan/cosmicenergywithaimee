@@ -79,6 +79,7 @@ input {
 
     .contactFormItemA {
         grid-column-start: 3;
+        grid-column-end: 7;
         grid-row-start: 1;
     }
 
@@ -104,6 +105,7 @@ input {
 
     .contactFormItemA {
         grid-column-start: 4;
+        grid-column-end: 8;
         grid-row-start: 1;
     }
 
