@@ -4,6 +4,7 @@ import reiki from "../images/reiki.jpg";
 import aboutMe from "../images/about_me.jpg";
 import headerGradient from "../images/Header_Gradient.png";
 import "./Homepage.css";
+import { Reveal } from "./utils/Reveal";
 
 const Homepage = () => {
   return (
@@ -23,16 +24,19 @@ const Homepage = () => {
         </h1>
         {/* <HomepageSvgGradient /> */}
       </div>
+
       <div className="homepageSectionOne">
         <div className="homepageIntroduction sectionOnegridPadding gridCentered">
-          <p className="textColourLightPurple textAlign homepageIntroductionGridItem">
-            Cosmic Energy is a spiritual company founded by Aimee. Our services
-            are designed to help you connect with your inner self and elevate
-            your consciousness. We value openness, oneness and spiritual growth,
-            and strive to empower you on your journey with kindness and
-            authenticity. Our goal is to support your path towards
-            self-discovery and transformation.
-          </p>
+          <Reveal>
+            <p className="textColourLightPurple textAlign homepageIntroductionGridItem">
+              Cosmic Energy is a spiritual company founded by Aimee. Our
+              services are designed to help you connect with your inner self and
+              elevate your consciousness. We value openness, oneness and
+              spiritual growth, and strive to empower you on your journey with
+              kindness and authenticity. Our goal is to support your path
+              towards self-discovery and transformation.
+            </p>
+          </Reveal>
         </div>
 
         <img
