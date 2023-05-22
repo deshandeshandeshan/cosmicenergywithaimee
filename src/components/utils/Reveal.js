@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 
-export const Reveal = ({ children, parentCss }) => {
+export const Reveal = ({ children }) => {
   const mainControls = useAnimation();
   const slideControls = useAnimation();
 
@@ -20,7 +20,6 @@ export const Reveal = ({ children, parentCss }) => {
 
   return (
     <motion.div
-      className={parentCss}
       ref={ref}
       variants={{
         hidden: { opacity: 0, y: 75 },

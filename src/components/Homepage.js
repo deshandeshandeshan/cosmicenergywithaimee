@@ -54,12 +54,12 @@ const Homepage = () => {
             <h2 className="heading textColourCream">Services</h2>
           </Reveal>
         </div>
-
         <img
           src={reiki}
           alt="Side profile of someones face laying down as someone performs reiki on them"
-          className="image servicesItemB imagePadding"
+          className="image imagePadding servicesItemB"
         />
+
         <div className="textAlign servicesItemC contentPadding">
           <Reveal>
             <p className="textColourCream">
@@ -96,11 +96,10 @@ const Homepage = () => {
             <h2 className="heading">Hi, I'm Aimee</h2>
           </Reveal>
         </div>
-
         <img
           src={aboutMe}
           alt="Someone Viewing a glowing green sky"
-          className="image homepageAboutMeItemB imagePadding"
+          className="image imagePadding gradientGridAlign homepageAboutMeItemB"
         />
         <div className="homepageAboutMeItemC textAlign contentPadding">
           <Reveal>
