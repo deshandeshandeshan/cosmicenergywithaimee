@@ -9,7 +9,7 @@ import { Reveal } from "./utils/Reveal";
 const Homepage = () => {
   return (
     <main>
-      <div className="homepageHeaderGradient">
+      <section className="homepageHeaderGradient">
         <h1 className="headerGradientItemB headerGridPadding gradientGridAlign textColourCream">
           Navigating
         </h1>
@@ -23,9 +23,9 @@ const Homepage = () => {
           heartspace
         </h1>
         {/* <HomepageSvgGradient /> */}
-      </div>
+      </section>
 
-      <div className="homepageSectionOne">
+      <section className="homepageSectionOne">
         <div className="homepageIntroduction sectionOnegridPadding gridCentered">
           <div className="textAlign homepageIntroductionGridItem">
             <Reveal>
@@ -46,9 +46,9 @@ const Homepage = () => {
           alt="Misty scene with a single tree in the middle"
           className="image homepageSectionOneImage"
         />
-      </div>
+      </section>
 
-      <div className="homepageServices grid homepageServicesGrid">
+      <section className="homepageServices grid homepageServicesGrid">
         <div className="textAlign servicesItemA servicesTitlePadding homepageTitlePadding">
           <Reveal>
             <h2 className="heading textColourCream">Services</h2>
@@ -81,12 +81,16 @@ const Homepage = () => {
             </p>
           </Reveal>
         </div>
-        <Link to="/services" className="servicesButtonItem displayGrid">
-          <button className="button">View Services</button>
-        </Link>
-      </div>
+        <div className="servicesButtonItem">
+          <Reveal>
+            <Link to="/services" className="displayGrid">
+              <button className="button">View Services</button>
+            </Link>
+          </Reveal>
+        </div>
+      </section>
 
-      <div className="grid homepageAboutMe homepageAboutMeGrid">
+      <section className="grid homepageAboutMe homepageAboutMeGrid">
         <div className="homepageAboutMeItemA textAlign homepageTitlePadding">
           <Reveal>
             <h2 className="heading">Hi, I'm Aimee</h2>
@@ -111,11 +115,14 @@ const Homepage = () => {
             </p>
           </Reveal>
         </div>
-
-        <Link to="/aboutme" className="aboutMeButtonItem displayGrid">
-          <button className="button">More about me</button>
-        </Link>
-      </div>
+        <div className="aboutMeButtonItem">
+          <Reveal>
+            <Link to="/aboutme" className="displayGrid">
+              <button className="button">More about me</button>
+            </Link>
+          </Reveal>
+        </div>
+      </section>
     </main>
   );
 };

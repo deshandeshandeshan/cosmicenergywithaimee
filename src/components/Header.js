@@ -1,30 +1,11 @@
 import { Link } from "react-router-dom";
 import Logo from "../images/Logo.png";
 import "./Header.css";
-import { motion, useInView, useAnimation } from "framer-motion";
-import React, { useEffect, useRef } from "react";
-import Reveal from "./utils/Reveal";
 
 const Header = () => {
-  const mainControls = useAnimation();
-  const slideControls = useAnimation();
-
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
-
-  useEffect(() => {
-    if (isInView) {
-      slideControls.start("visible");
-      mainControls.start("visible");
-    } else {
-      slideControls.start("hidden");
-      mainControls.start("hidden");
-    }
-  }, [isInView, mainControls, slideControls]);
-
   return (
     <div>
-      <header ref={ref}>
+      <header>
         <nav className="navBar">
           <img
             src={Logo}
@@ -32,17 +13,7 @@ const Header = () => {
             width="200"
             className="navBrand navBrandPadding"
           />
-
-          <motion.ul
-            className="navMenu navPadding"
-            variants={{
-              hidden: { opacity: 0, y: 30 },
-              visible: { opacity: 1, y: 0 },
-            }}
-            initial="hidden"
-            animate={mainControls}
-            transition={{ duration: 1, delay: 0.1 }}
-          >
+          <ul className="navMenu navPadding">
             <li className="navItem navPadding">
               <Link to="/" className="navLink">
                 Homepage
@@ -63,7 +34,7 @@ const Header = () => {
                 About me
               </Link>
             </li>
-          </motion.ul>
+          </ul>
 
           {/* <div className="hamburger">
             <span className="bar"></span>
