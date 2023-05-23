@@ -12,7 +12,7 @@ const Contact = () => {
         </p>
         <form
           className="contactForm colourLightPurple contactFormItemC"
-          action="https://formsubmit.co/deshan.mclachlan0@gmail.com"
+          action="https://formsubmit.co/hello@cosmicenergywithaimee.com"
           method="POST"
         >
           <label htmlFor="name">Name:</label>

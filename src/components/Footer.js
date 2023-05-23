@@ -14,14 +14,15 @@ const Footer = () => {
         />
 
         <ul className="footerContact">
-          <li className="contactItem textPadding">aimee@cosmicenergy.co.nz</li>
-          <li className="contactItem textPadding">+64 27 000 0000</li>
+          <li className="contactItem textPadding">
+            hello@cosmicenergywithaimee.com
+          </li>
+          {/* <li className="contactItem textPadding">+64 27 000 0000</li> */}
           <li className="contactItem textPadding">
             <Link to="https://www.instagram.com/cosmicenergywithaimee/">
               Instagram
             </Link>
           </li>
-          {/* <li className="contactItem textPadding">TikTok</li> */}
           <li className="contactItem textPadding">
             2023 Cosmic Energy with Aimee
           </li>
