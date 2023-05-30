@@ -33,7 +33,7 @@ const AboutMe = () => {
         />
       </div>
 
-      <div className="aboutMeSecondSection aboutMeSectionPadding aboutMeGrid">
+      <div className="aboutMeSectionTwo aboutMeSectionPadding aboutMeGrid">
         <p className="secondSectionText aboutMeItemA aboutMePadding">
           We often hear it nowadays don’t we - how we are all made up of energy,
           and that is true for everything in our world, so when your own
