@@ -13,7 +13,7 @@
     height: 50rem;
     width: 100%;
     background-position: center center;
-    background-image: url("../images/Header_Gradient.png");
+    background-image: url("../images/Header_Gradient.jpg");
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
