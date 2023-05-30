@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import reiki from "../images/reiki.jpg";
+import oracleCards from "../images/oracle_cards.jpg";
+import incense from "../images/incense.jpg";
 import "./Services.css";
 
 const Services = () => {
@@ -21,7 +23,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="servicesReiki servicesGrid">
+      <div className="services servicesGrid">
         <img
           src={reiki}
           alt="Side profile of someones face laying down as someone performs reiki on them"
@@ -35,6 +37,45 @@ const Services = () => {
             use light touch or hands hovering over your body to channel energy,
             which can help release tension, reduce stress and enhance overall
             wellbeing.
+          </p>
+        </div>
+      </div>
+
+      <div className="services servicesGrid">
+        <img
+          src={oracleCards}
+          alt="Side profile of someones face laying down as someone performs reiki on them"
+          className="oracleGridItemA image imagePadding"
+        />
+        <div className="oracleGridItemB servicesItemAlign">
+          <h2 className="heading servicesTextAlign servicesPadding ">
+            Oracle card readings
+          </h2>
+          <p className="servicesTextAlign">
+            A divination practice that uses oracle cards to provide guidance,
+            insight and clarity. The practitioner will help you select cards
+            that resonate with your questions or intentions, and offer
+            interpretation and guidance based on the symbolism and messages of
+            the cards.
+          </p>
+        </div>
+      </div>
+
+      <div className="services servicesGrid">
+        <img
+          src={incense}
+          alt="Side profile of someones face laying down as someone performs reiki on them"
+          className="mediumshipGridItemA image imagePadding"
+        />
+        <div className="mediumshipGridItemB servicesItemAlign">
+          <h2 className="heading servicesTextAlign servicesPadding ">
+            Mediumship readings
+          </h2>
+          <p className="servicesTextAlign">
+            A communication practice that connects you with loved ones who have
+            passed away. The practitioner will act as a medium or channel
+            between you and the spirit world, relaying messages and providing
+            comfort and closure.
           </p>
         </div>
       </div>
