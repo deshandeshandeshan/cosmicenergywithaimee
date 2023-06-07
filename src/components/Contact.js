@@ -49,11 +49,11 @@ const Contact = () => {
             name="message"
             cols="60"
             rows="8"
-            className="inputFieldMessage inputField"
+            className="messageField inputFieldMessage inputField"
           />
 
           <button
-            className="formButton formButtonMargin"
+            className="button formButton formButtonMargin"
             type="submit"
             value="Submit"
           >

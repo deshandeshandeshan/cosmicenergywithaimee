@@ -11,8 +11,12 @@
     padding-bottom: 2rem;
 }
 
+.messageField {
+    margin-top: 1rem;
+}
+
 .formMargin {
-    margin-bottom: 2rem;
+    margin: 1rem 0 2rem;
 }
 
 .formButtonMargin{
