@@ -63,16 +63,20 @@ const Services = () => {
           className="oracleGridItemA image imagePadding"
         />
         <div className="oracleGridItemB servicesItemAlign">
-          <h2 className="heading servicesTextAlign servicesPadding ">
-            Oracle card readings
-          </h2>
-          <p className="servicesTextAlign">
-            A divination practice that uses oracle cards to provide guidance,
-            insight and clarity. The practitioner will help you select cards
-            that resonate with your questions or intentions, and offer
-            interpretation and guidance based on the symbolism and messages of
-            the cards.
-          </p>
+          <Reveal>
+            <h2 className="heading servicesTextAlign servicesPadding ">
+              Oracle card readings
+            </h2>
+          </Reveal>
+          <Reveal>
+            <p className="servicesTextAlign">
+              A divination practice that uses oracle cards to provide guidance,
+              insight and clarity. The practitioner will help you select cards
+              that resonate with your questions or intentions, and offer
+              interpretation and guidance based on the symbolism and messages of
+              the cards.
+            </p>
+          </Reveal>
         </div>
       </div>
 
@@ -83,15 +87,19 @@ const Services = () => {
           className="mediumshipGridItemA image imagePadding"
         />
         <div className="mediumshipGridItemB servicesItemAlign">
-          <h2 className="heading servicesTextAlign servicesPadding ">
-            Mediumship readings
-          </h2>
-          <p className="servicesTextAlign">
-            A communication practice that connects you with loved ones who have
-            passed away. The practitioner will act as a medium or channel
-            between you and the spirit world, relaying messages and providing
-            comfort and closure.
-          </p>
+          <Reveal>
+            <h2 className="heading servicesTextAlign servicesPadding ">
+              Mediumship readings
+            </h2>
+          </Reveal>
+          <Reveal>
+            <p className="servicesTextAlign">
+              A communication practice that connects you with loved ones who
+              have passed away. The practitioner will act as a medium or channel
+              between you and the spirit world, relaying messages and providing
+              comfort and closure.
+            </p>
+          </Reveal>
         </div>
       </div>
 

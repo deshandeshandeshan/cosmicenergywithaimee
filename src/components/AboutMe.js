@@ -39,21 +39,33 @@ const AboutMe = () => {
       </section>
 
       <div className="aboutMeSectionTwo aboutMeSectionPadding aboutMeGrid">
-        <p className="secondSectionText aboutMeItemA aboutMePadding">
-          We often hear it nowadays don’t we - how we are all made up of energy,
-          and that is true for everything in our world, so when your own
-          internal energy system (the chakras) are out of sync, it really does
-          have a profound effect on our reality and how we respond to things
-          happening around us.
-        </p>
-        <p className="secondSectionText aboutMeTextPadding aboutMeItemB aboutMePadding">
-          Here at It’s Cosmic Energy, my goal is to help you clear any blockages
-          that are stopping you from aligning with your full potential and your
-          higher self.
-        </p>
-        <Link to="/contact" className="aboutMeItemC">
-          <button className="button aboutMeButton">Contact</button>
-        </Link>
+        <div className="aboutMeItemA">
+          <Reveal>
+            <p className="secondSectionText aboutMePadding">
+              We often hear it nowadays don’t we - how we are all made up of
+              energy, and that is true for everything in our world, so when your
+              own internal energy system (the chakras) are out of sync, it
+              really does have a profound effect on our reality and how we
+              respond to things happening around us.
+            </p>
+          </Reveal>
+        </div>
+        <div className="aboutMeItemB">
+          <Reveal>
+            <p className="secondSectionText aboutMeTextPadding aboutMePadding">
+              Here at It’s Cosmic Energy, my goal is to help you clear any
+              blockages that are stopping you from aligning with your full
+              potential and your higher self.
+            </p>
+          </Reveal>
+        </div>
+        <div className="aboutMeItemC">
+          <Reveal>
+            <Link to="/contact" className="aboutMeItemC">
+              <button className="button aboutMeButton">Contact</button>
+            </Link>
+          </Reveal>
+        </div>
       </div>
     </main>
   );
