@@ -11,8 +11,12 @@
     padding-bottom: 2rem;
 }
 
+.messageField {
+    margin-top: 1rem;
+}
+
 .formMargin {
-    margin-bottom: 2rem;
+    margin: 1rem 0 2rem;
 }
 
 .formButtonMargin{
@@ -68,7 +72,7 @@ input {
     padding: .5rem;
 }
 
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-width: 50rem) {
     .contactGrid {
         display: grid;
         grid-template-columns: repeat(8, 1fr);

@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import reiki from "../images/reiki.jpg";
+import oracleCards from "../images/oracle_cards.jpg";
+import incense from "../images/incense.jpg";
 import "./Services.css";
 import { Reveal } from "./utils/Reveal";
 
@@ -30,7 +32,7 @@ const Services = () => {
         </div>
       </section>
 
-      <section className="servicesReiki servicesGrid">
+      <section className="services servicesGrid">
         <img
           src={reiki}
           alt="Side profile of someones face laying down as someone performs reiki on them"
@@ -54,26 +56,57 @@ const Services = () => {
         </div>
       </section>
 
-      <section className="servicesOutro servicesGrid">
-        <div className="outroGridItemA">
-          <Reveal>
-            <p className="servicesTextAlign contentPadding">
-              Our services are tailored to your individual needs and
-              preferences, and can be conducted in person, on video call or
-              through email, for your convenience. If you are interested in any
-              of these services please get in contact with me via the contact
-              form provided.
-            </p>
-          </Reveal>
+      <div className="services servicesGrid">
+        <img
+          src={oracleCards}
+          alt="Side profile of someones face laying down as someone performs reiki on them"
+          className="oracleGridItemA image imagePadding"
+        />
+        <div className="oracleGridItemB servicesItemAlign">
+          <h2 className="heading servicesTextAlign servicesPadding ">
+            Oracle card readings
+          </h2>
+          <p className="servicesTextAlign">
+            A divination practice that uses oracle cards to provide guidance,
+            insight and clarity. The practitioner will help you select cards
+            that resonate with your questions or intentions, and offer
+            interpretation and guidance based on the symbolism and messages of
+            the cards.
+          </p>
         </div>
-        <div className="outroGridItemB ">
-          <Reveal>
-            <Link to="/contact" className="displayGrid">
-              <button className="button">Contact</button>
-            </Link>
-          </Reveal>
+      </div>
+
+      <div className="services servicesGrid">
+        <img
+          src={incense}
+          alt="Side profile of someones face laying down as someone performs reiki on them"
+          className="mediumshipGridItemA image imagePadding"
+        />
+        <div className="mediumshipGridItemB servicesItemAlign">
+          <h2 className="heading servicesTextAlign servicesPadding ">
+            Mediumship readings
+          </h2>
+          <p className="servicesTextAlign">
+            A communication practice that connects you with loved ones who have
+            passed away. The practitioner will act as a medium or channel
+            between you and the spirit world, relaying messages and providing
+            comfort and closure.
+          </p>
         </div>
-      </section>
+      </div>
+
+      <div className="servicesOutro servicesGrid">
+        <p className="outroGridItemA servicesTextAlign contentPadding">
+          Our services are tailored to your individual needs and preferences,
+          and can be conducted in person, on video call or through email, for
+          your convenience. If you are interested in any of these services
+          please get in contact with me via the contact form provided.
+        </p>
+
+        <Link to="/contact" className="outroGridItemB displayGrid">
+          <button className="button">Contact</button>
+        </Link>
+      </div>
     </main>
   );
 };

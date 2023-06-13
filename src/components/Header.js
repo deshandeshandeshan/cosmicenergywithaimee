@@ -7,12 +7,15 @@ const Header = () => {
     <div>
       <header>
         <nav className="navBar">
-          <img
-            src={Logo}
-            alt="Cosmic energy logo"
-            width="200"
-            className="navBrand navBrandPadding"
-          />
+          <Link to="/" className="navLink">
+            <img
+              src={Logo}
+              alt="Cosmic energy logo"
+              width="200"
+              className="navBrand navBrandPadding"
+            />
+          </Link>
+
           <ul className="navMenu navPadding">
             <li className="navItem navPadding">
               <Link to="/" className="navLink">

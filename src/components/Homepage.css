@@ -13,7 +13,7 @@
     height: 50rem;
     width: 100%;
     background-position: center center;
-    background-image: url("../images/Header_Gradient.png");
+    background-image: url("../images/Header_Gradient.jpg");
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -184,7 +184,7 @@
     margin-top: 3rem;
 }
 
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-width: 50rem) {
     .homepageHeaderGradient {
         grid-template-columns: repeat(8, 1fr);
         padding: 0 5rem;
@@ -334,17 +334,17 @@
     }
     
     .headerGradientItemC {
-        grid-column-start: 8;
+        grid-column-start: 9;
         grid-row-start: 2;
     }
     
     .headerGradientItemD {
-        grid-column-start: 3;
+        grid-column-start: 4;
         grid-row-start: 3;
     }
     
     .headerGradientItemE {
-        grid-column-start: 9;
+        grid-column-start: 11;
         grid-row-start: 4;
     }
 

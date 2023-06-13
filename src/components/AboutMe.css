@@ -7,7 +7,7 @@
     padding-bottom: 1rem
 }
 
-.aboutMeSecondSection {
+.aboutMeSectionTwo {
     background-color: #E8E3D6;
     color: #20123E;
 }
@@ -24,7 +24,7 @@
     padding-bottom: 3rem;
 }
 
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-width: 50rem) {
 
     .aboutMeSectionOne {
         display: grid;

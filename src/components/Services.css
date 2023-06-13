@@ -31,7 +31,7 @@
     grid-row-end: 4;
 }
 
-.servicesReiki {
+.services {
     display: grid;
     min-height: 30rem;
     background-color: #E8E3D6;
@@ -40,14 +40,28 @@
     padding-bottom: 4rem;
 }
 
-.reikiGridItemA {
+.reikiGridItemA, .mediumshipGridItemA {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 
-.reikiGridItemB {
+.reikiGridItemB, .mediumshipGridItemB {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.oracleGridItemA {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.oracleGridItemB {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 2;
@@ -78,7 +92,7 @@
     margin: auto 0;
 }
 
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-width: 50rem) {
 .servicesOutro {
     padding-top: 12rem;
     padding-bottom: 12rem;
@@ -105,14 +119,29 @@
         grid-row-end: 4;
     }
 
-    .reikiGridItemA {
+    .reikiGridItemA, .mediumshipGridItemA {
         grid-column-start: 3;
         grid-column-end: 7;
         grid-row-start: 1;
         grid-row-end: 2;
     }
     
-    .reikiGridItemB {
+    .reikiGridItemB, .mediumshipGridItemB {
+        grid-column-start: 3;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding-top: 2rem;
+    }
+
+    .oracleGridItemA {
+        grid-column-start: 3;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .oracleGridItemB {
         grid-column-start: 3;
         grid-column-end: 7;
         grid-row-start: 2;
@@ -158,19 +187,34 @@
         grid-row-end: 4;
     }
 
-    .reikiGridItemA {
+    .reikiGridItemA, .mediumshipGridItemA {
         grid-column-start: 2;
         grid-column-end: 6;
         grid-row-start: 1;
         grid-row-end: 2;
     }
     
-    .reikiGridItemB {
+    .reikiGridItemB, .mediumshipGridItemB {
         grid-column-start: 8;
         grid-column-end: 12;
         grid-row-start: 1;
         grid-row-end: 2;
         padding-top: 0;
+    }
+
+    .oracleGridItemA {
+        grid-column-start: 8;
+        grid-column-end: 12;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding-top: 0;
+    }
+    
+    .oracleGridItemB {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 2;
     }
 
     .outroGridItemA {

@@ -1,5 +1,5 @@
 .footer {
-    background-image: url("../images/Footer_Gradient.png");
+    background-image: url("../images/Footer_Gradient.jpg");
 }
 
 .mobileGrid {
@@ -35,7 +35,7 @@
     text-align: right;
 }
 
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-width: 50rem) {
     .footerGridPadding {
         padding: 2rem 5rem;
     }
