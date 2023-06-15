@@ -1,5 +1,4 @@
 import "./Contact.css";
-import { Reveal } from "./utils/Reveal";
 
 const Contact = () => {
   return (
