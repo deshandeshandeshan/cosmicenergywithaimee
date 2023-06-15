@@ -5,7 +5,7 @@ import aboutMe from "../images/about_me.jpg";
 // import headerGradient from "../images/Header_Gradient.png";
 import "./Homepage.css";
 
-const Homepage = () => {
+const Home = () => {
   return (
     <main>
       <div className="homepageHeaderGradient">
@@ -101,4 +101,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default Home;

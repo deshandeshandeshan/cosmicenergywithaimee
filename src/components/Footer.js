@@ -34,7 +34,7 @@ const Footer = () => {
       <ul className="footerLink footerGridItemB">
         <li className="footerItem textPadding">
           <Link to="/" className="navLink">
-            Homepage
+            Home
           </Link>
         </li>
         <li className="footerItem textPadding">

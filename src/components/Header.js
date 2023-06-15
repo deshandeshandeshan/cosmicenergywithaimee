@@ -19,7 +19,7 @@ const Header = () => {
           <ul className="navMenu navPadding">
             <li className="navItem navPadding">
               <Link to="/" className="navLink">
-                Homepage
+                Home
               </Link>
             </li>
             <li className="navItem navPadding">
