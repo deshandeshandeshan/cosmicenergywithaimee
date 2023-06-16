@@ -3,7 +3,7 @@ import tree from "../images/tree.jpg";
 import reiki from "../images/reiki.jpg";
 import aboutMe from "../images/about_me.jpg";
 // import headerGradient from "../images/Header_Gradient.png";
-import "./Homepage.css";
+import "./Home.css";
 import { Reveal } from "./utils/Reveal";
 
 const Home = () => {
