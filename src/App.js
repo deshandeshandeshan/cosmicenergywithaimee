@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Homepage from "./components/Homepage";
+import Home from "./components/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <ScrollToTop>
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
