@@ -16,14 +16,14 @@
               repeatCount="indefinite"
             ></animate>
           </stop>
-          <!-- <stop offset=".5" stop-color="purple">
+          <stop offset=".5" stop-color="purple">
             <animate
               attributeName="stop-color"
-              values="#E5D6FC"
+              values="#8A26A0"
               dur="20s"
               repeatCount="indefinite"
             ></animate>
-          </stop> -->
+          </stop>
           <stop offset="1" stop-color="blue">
             <animate
               attributeName="stop-color"
