@@ -1,0 +1,68 @@
+.consultContainer {
+    background-color: #20123E;
+}
+
+.consultItem {
+    background-color: #E8E3D6;
+    padding: 2rem;
+    border-radius: 1rem
+}
+
+.paddingBottom {
+    padding-bottom: 1rem;
+}
+
+.consultHeader {
+    text-align: center;
+    color: #E5D6FC;
+    padding-top: 4rem;
+}
+
+.consultGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 0 1rem;
+    margin: 4rem 2rem;
+    text-align: center;
+    row-gap: 2rem;
+}
+
+.consultItemA {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+}
+
+.consultItemB {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+}
+
+.cosultButton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem
+}
+
+@media only screen and (min-width: 50rem) {
+    .consultGrid {
+        grid-template-columns: repeat(8, 1fr);
+        margin-left: 5rem;
+        margin-right: 5rem;
+        text-align: left;
+    }
+
+    .consultItemA {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+    }
+    
+    .consultItemB {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 1;
+    }
+}

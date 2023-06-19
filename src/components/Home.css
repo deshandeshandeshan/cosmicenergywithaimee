@@ -96,7 +96,11 @@
     outline-offset: -4px;
 }
 
-.contentPadding, .imagePadding {
+.contentPadding{
+    padding-bottom: 1rem;
+}
+
+.imagePadding {
     padding-bottom: 3rem;
 }
 
@@ -175,6 +179,7 @@
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 4;
+    margin-top: 3rem;
 }
 
 .servicesButtonItem {
