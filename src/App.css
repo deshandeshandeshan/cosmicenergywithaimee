@@ -10,6 +10,7 @@
     font-family: "neue-haas-grotesk-display", sans-serif;
     font-weight: 200;
     font-size: 1.2rem;
+    letter-spacing: .1rem;
  }
 
  h1, h2, h3 {
@@ -21,4 +22,5 @@
    font-family: "neue-haas-grotesk-display", sans-serif;
     font-weight: 400;
     font-size: 1rem;
+    letter-spacing: .1rem;
  }
