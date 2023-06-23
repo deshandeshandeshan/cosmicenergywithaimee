@@ -2,6 +2,10 @@
     background-color: #20123E;
 }
 
+.consultEmailLink {
+    text-decoration: underline;
+}
+
 .consultItem {
     background-color: #E8E3D6;
     padding: 2rem;
