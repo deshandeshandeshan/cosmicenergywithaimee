@@ -10,16 +10,16 @@ const Home = () => {
   return (
     <main>
       <section className="homepageHeaderGradient">
-        <h1 className="headerGradientItemB headerGridPadding gradientGridAlign textColourCream">
+        <h1 className="headerGradientItemB headerGridPadding gradientGridAlign textColourCream featureText">
           Navigating
         </h1>
-        <h1 className="headerGradientItemC headerGridPadding gradientGridAlign textColourCream">
+        <h1 className="headerGradientItemC headerGridPadding gradientGridAlign textColourCream featureText">
           from
         </h1>
-        <h1 className="headerGradientItemD headerGridPadding gradientGridAlign textColourCream">
+        <h1 className="headerGradientItemD headerGridPadding gradientGridAlign textColourCream featureText">
           your
         </h1>
-        <h1 className="headerGradientItemE headerGridPadding gradientGridAlign textColourLightPurple">
+        <h1 className="headerGradientItemE headerGridPadding gradientGridAlign textColourLightPurple featureText">
           heartspace
         </h1>
         {/* <HomepageSvgGradient /> */}
