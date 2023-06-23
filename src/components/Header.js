@@ -28,8 +28,8 @@ const Header = () => {
               </Link>
             </li>
             <li className="navItem navPadding">
-              <Link to="/contact" className="navLink">
-                Contact
+              <Link to="/consult" className="navLink">
+                Consult
               </Link>
             </li>
             <li className="navItem navPadding">

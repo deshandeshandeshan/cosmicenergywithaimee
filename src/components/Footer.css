@@ -3,7 +3,8 @@
 }
 
 .mobileGrid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 0 1rem;
 }
 
@@ -12,7 +13,7 @@
 }
 
 .footerBrand {
-    padding-bottom: 1.5rem;
+    height: 6rem;
 }
 
 .textPadding {
@@ -25,14 +26,27 @@
     font-size: 1rem;
     letter-spacing: .1rem;
     color: #E5D6FC;
+    letter-spacing: .1rem;
 }
 
 .footerGrid {
     display: grid;
 }
 
+.footerGridItemA {
+    grid-column-start: 1;
+}
+
 .footerGridItemB {
-    grid-column-start: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.footerGridItemC {
+    grid-column-start: 2;
     text-align: right;
 }
 
