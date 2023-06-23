@@ -22,6 +22,10 @@
 
 }
 
+.featureText {
+    font-size: 2rem;
+}
+
 .gradientGridAlign {
     display: grid;
     align-items: center;
