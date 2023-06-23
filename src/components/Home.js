@@ -3,6 +3,7 @@ import tree from "../images/tree.jpg";
 import reiki from "../images/reiki.jpg";
 import aboutMe from "../images/about_me.jpg";
 // import headerGradient from "../images/Header_Gradient.png";
+// import HomepageSvgGradient from "./HomepageSvgGradient";
 import "./Home.css";
 import { Reveal } from "./utils/Reveal";
 
@@ -22,8 +23,9 @@ const Home = () => {
         <h1 className="headerGradientItemE headerGridPadding gradientGridAlign textColourLightPurple featureText">
           heartspace
         </h1>
-        {/* <HomepageSvgGradient /> */}
       </section>
+
+      {/* <HomepageSvgGradient /> */}
 
       <section className="homepageSectionOne">
         <div className="homepageIntroduction sectionOnegridPadding gridCentered">
