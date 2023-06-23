@@ -6,13 +6,10 @@ const Footer = () => {
   return (
     <footer className="footer footerGrid mobileGrid footerGridPadding">
       <div className="footerGridItemA">
-        <img
-          src={LogoMark}
-          alt="Cosmic energy logo"
-          width="50"
-          className="footerBrand"
-        />
+        <img src={LogoMark} alt="Cosmic energy logo" className="footerBrand" />
+      </div>
 
+      <div className="footerGridItemB">
         <ul className="footerContact">
           <li className="contactItem textPadding">
             <a href="mailto:hello@cosmicenergywithaimee.com">
@@ -31,7 +28,7 @@ const Footer = () => {
         </ul>
       </div>
 
-      <ul className="footerLink footerGridItemB">
+      <ul className="footerLink footerGridItemC">
         <li className="footerItem textPadding">
           <Link to="/" className="navLink">
             Home
