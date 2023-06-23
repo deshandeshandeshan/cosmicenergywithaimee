@@ -108,11 +108,11 @@ const Services = () => {
           Our services are tailored to your individual needs and preferences,
           and can be conducted in person, on video call or through email, for
           your convenience. If you are interested in any of these services
-          please get in contact with me via the contact form provided.
+          please get in contact with me via the consult page or through email.
         </p>
 
-        <Link to="/contact" className="outroGridItemB displayGrid">
-          <button className="button">Contact</button>
+        <Link to="/reservation" className="outroGridItemB displayGrid">
+          <button className="button">Book a consultation</button>
         </Link>
       </div>
     </main>

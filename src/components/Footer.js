@@ -43,8 +43,8 @@ const Footer = () => {
           </Link>
         </li>
         <li className="footerItem textPadding">
-          <Link to="/contact" className="navLink">
-            Contact
+          <Link to="/Consult" className="navLink">
+            Consult
           </Link>
         </li>
         <li className="footerItem textPadding">
