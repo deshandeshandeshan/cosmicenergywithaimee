@@ -23,14 +23,14 @@
 } */
 
 .homepageHeaderGradient {
-    height: 50rem;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     background-position: center center;
     background-image: url("HomepageSvgGradient.svg");
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    padding: 0 2rem;
+    padding: 20rem 2rem 0;
     gap: 0 1rem;
 
 }
