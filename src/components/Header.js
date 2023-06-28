@@ -1,22 +1,43 @@
 import { Link } from "react-router-dom";
 import Logo from "../images/Logo.png";
 import "./Header.css";
+import { useState } from "react";
 
 const Header = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <div>
       <header>
         <nav className="navBar">
-          <Link to="/" className="navLink">
-            <img
-              src={Logo}
-              alt="Cosmic energy logo"
-              width="200"
-              className="navBrand navBrandPadding"
-            />
-          </Link>
+          <div className="navGrid">
+            <Link to="/" className="logoNavLink">
+              <img
+                src={Logo}
+                alt="Cosmic energy logo"
+                width="200"
+                className="navBrand navBrandPadding"
+              />
+            </Link>
+            <div className="hamburgerGridItem">
+              <div
+                className="hamburger hamburgerGridItem"
+                onClick={() => {
+                  setOpen(!open);
+                }}
+              >
+                <span className="bar bar1"></span>
+                <span className="bar bar2"></span>
+                <span className="bar bar3"></span>
+              </div>
+            </div>
+          </div>
 
-          <ul className="navMenu navPadding">
+          <ul
+            className={`navMenu navPadding textDelay ${
+              open ? "active" : "inactive"
+            }`}
+          >
             <li className="navItem navPadding">
               <Link to="/" className="navLink">
                 Home
@@ -38,12 +59,6 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-
-          {/* <div className="hamburger">
-            <span className="bar"></span>
-            <span className="bar"></span>
-            <span className="bar"></span>
-          </div> */}
         </nav>
       </header>
     </div>
