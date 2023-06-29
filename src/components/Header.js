@@ -30,24 +30,26 @@ const Header = () => {
   return (
     <header>
       <nav className={`navBar ${showNav && "nav--hidden"}`}>
-        <Link to="/" className="logoNavLink">
-          <img
-            src={Logo}
-            alt="Cosmic energy logo"
-            width="200"
-            className="navBrand navBrandPadding"
-          />
-        </Link>
-        <div className="hamburgerGridItem">
-          <div
-            className="hamburger hamburgerGridItem"
-            onClick={() => {
-              setOpen(!open);
-            }}
-          >
-            <span className="bar bar1"></span>
-            <span className="bar bar2"></span>
-            <span className="bar bar3"></span>
+        <div className="navGrid">
+          <Link to="/" className="logoNavLink">
+            <img
+              src={Logo}
+              alt="Cosmic energy logo"
+              width="200"
+              className="navBrand navBrandPadding"
+            />
+          </Link>
+          <div className="hamburgerGridItem">
+            <div
+              className="hamburger hamburgerGridItem"
+              onClick={() => {
+                setOpen(!open);
+              }}
+            >
+              <span className="bar bar1"></span>
+              <span className="bar bar2"></span>
+              <span className="bar bar3"></span>
+            </div>
           </div>
         </div>
 
