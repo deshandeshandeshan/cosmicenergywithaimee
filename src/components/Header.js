@@ -5,11 +5,11 @@ import React, { useState, useEffect } from "react";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
-  const [showNav, setShowNav] = useState(false);
+  const [showNav, setShowNav] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
   const controlNavBar = () => {
-    if (window.scrollY < lastScrollY) {
+    if (window.scrollY > lastScrollY) {
       setShowNav(false);
     } else {
       setShowNav(true);
@@ -18,8 +18,17 @@ const Header = () => {
     setLastScrollY(window.scrollY);
   };
 
+  const closeNavOnScroll = () => {
+    if (window.scrollY > lastScrollY) {
+      setOpen(false);
+    }
+
+    setLastScrollY(window.scrollY);
+  };
+
   useEffect(() => {
     window.addEventListener("scroll", controlNavBar);
+    window.addEventListener("scroll", closeNavOnScroll);
     return () => {
       window.removeEventListener("scroll", controlNavBar);
     };
@@ -27,7 +36,7 @@ const Header = () => {
 
   return (
     <header>
-      <nav className={`navBar ${showNav && "nav--hidden"}`}>
+      <nav className={`navBar ${showNav ? "nav--active" : "nav--hidden"}`}>
         <div className="navGrid">
           <Link to="/" className="logoNavLink">
             <img
