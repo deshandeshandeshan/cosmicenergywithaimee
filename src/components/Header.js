@@ -16,8 +16,6 @@ const Header = () => {
     }
 
     setLastScrollY(window.scrollY);
-
-    console.log(showNav);
   };
 
   useEffect(() => {
@@ -53,11 +51,7 @@ const Header = () => {
           </div>
         </div>
 
-        <ul
-          className={`navMenu navPadding textDelay ${
-            open ? "active" : "inactive"
-          }`}
-        >
+        <ul className={`navMenu navPadding ${open ? "active" : "inactive"}`}>
           <li className="navItem navPadding">
             <Link to="/" className="navLink">
               Home

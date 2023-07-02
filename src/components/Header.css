@@ -11,11 +11,13 @@ a {
     top: 0px;
     position: fixed;
     transition-duration: .5s;
+    width: 100%;
+    background-color: #20123E;
 }
 
 .nav--hidden {
     position: fixed;
-    top: -80px;
+    top: -7rem;
     transition: .5s;
 
 }
@@ -86,9 +88,9 @@ a {
     opacity: 1;
     visibility: visible;
     text-align: center;
-    max-height: 10rem;
+    max-height: 20rem;
+    transform: translateY(0);
     padding-bottom: 1rem;
-    transform: translateX(0);
     transition-duration: .4s;
 }
 
@@ -96,9 +98,12 @@ a {
     opacity: 0;
     visibility: hidden;
     max-height: 0;
-    transform: translateX(-120px);
+    transform: translateY(-2rem);
     transition-duration: .4s;
+}
 
+.navLink {
+    transition-duration: 2s;
 }
 
 .navItem {
