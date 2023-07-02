@@ -7,6 +7,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   const [showNav, setShowNav] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [navBackground, setNavBackground] = useState(false);
 
   const controlNavBar = () => {
     if (window.scrollY > lastScrollY) {
@@ -26,9 +27,18 @@ const Header = () => {
     setLastScrollY(window.scrollY);
   };
 
+  const removeBackgroundOnScroll = () => {
+    if (window.scrollY > 200) {
+      setNavBackground(true);
+    } else {
+      setNavBackground(false);
+    }
+  };
+
   useEffect(() => {
     window.addEventListener("scroll", controlNavBar);
     window.addEventListener("scroll", closeNavOnScroll);
+    window.addEventListener("scroll", removeBackgroundOnScroll);
     return () => {
       window.removeEventListener("scroll", controlNavBar);
     };
@@ -36,7 +46,11 @@ const Header = () => {
 
   return (
     <header>
-      <nav className={`navBar ${showNav ? "nav--active" : "nav--hidden"}`}>
+      <nav
+        className={`navBar ${showNav ? "nav--active" : "nav--hidden"} ${
+          navBackground ? "navBackground--active" : "navBackground--hidden"
+        }`}
+      >
         <div className="navGrid">
           <Link to="/" className="logoNavLink">
             <img
