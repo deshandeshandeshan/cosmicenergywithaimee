@@ -195,7 +195,7 @@
 @media only screen and (min-width: 50rem) {
     .homepageHeaderGradient {
         grid-template-columns: repeat(8, 1fr);
-        padding: 0 5rem;
+        padding: 8rem 5rem 0;
     }
     
     .headerGradientItemB {
@@ -333,7 +333,7 @@
 @media only screen and (min-width: 70rem) {
     .homepageHeaderGradient {
         grid-template-columns: repeat(12, 1fr);
-        padding: 0 4.375rem;
+        padding: 8rem 4.375rem 0;
     }
     
     .headerGradientItemB {

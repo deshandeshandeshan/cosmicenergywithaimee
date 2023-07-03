@@ -41,6 +41,8 @@ const Header = () => {
     window.addEventListener("scroll", removeBackgroundOnScroll);
     return () => {
       window.removeEventListener("scroll", controlNavBar);
+      window.addEventListener("scroll", closeNavOnScroll);
+      window.addEventListener("scroll", removeBackgroundOnScroll);
     };
   });
 
@@ -65,6 +67,7 @@ const Header = () => {
               className="hamburger hamburgerGridItem"
               onClick={() => {
                 setOpen(!open);
+                setNavBackground(true);
               }}
             >
               <span className="bar bar1"></span>
@@ -76,22 +79,46 @@ const Header = () => {
 
         <ul className={`navMenu navPadding ${open ? "active" : "inactive"}`}>
           <li className="navItem navPadding">
-            <Link to="/" className="navLink">
+            <Link
+              to="/"
+              className="navLink"
+              onClick={() => {
+                setOpen(!open);
+              }}
+            >
               Home
             </Link>
           </li>
           <li className="navItem navPadding">
-            <Link to="/services" className="navLink">
+            <Link
+              to="/services"
+              className="navLink"
+              onClick={() => {
+                setOpen(!open);
+              }}
+            >
               Services
             </Link>
           </li>
           <li className="navItem navPadding">
-            <Link to="/consult" className="navLink">
+            <Link
+              to="/consult"
+              className="navLink"
+              onClick={() => {
+                setOpen(!open);
+              }}
+            >
               Consult
             </Link>
           </li>
           <li className="navItem navPadding">
-            <Link to="/aboutme" className="navLink">
+            <Link
+              to="/aboutme"
+              className="navLink"
+              onClick={() => {
+                setOpen(!open);
+              }}
+            >
               About me
             </Link>
           </li>
