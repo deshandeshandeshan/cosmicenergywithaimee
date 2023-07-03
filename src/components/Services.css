@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+.servicesContentPadding {
+    padding-bottom: 3rem;
+}
+
 .textColourLightPurple {
     color: #E5D6FC;
 }

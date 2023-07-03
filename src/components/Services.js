@@ -104,7 +104,7 @@ const Services = () => {
       </div>
 
       <div className="servicesOutro servicesGrid">
-        <p className="outroGridItemA servicesTextAlign contentPadding">
+        <p className="outroGridItemA servicesTextAlign servicesContentPadding">
           Our services are tailored to your individual needs and preferences,
           and can be conducted in person, on video call or through email, for
           your convenience. If you are interested in any of these services
