@@ -179,15 +179,15 @@
 }
 
 .aboutMeButtonItem {
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
     grid-row-start: 4;
     margin-top: 3rem;
 }
 
 .servicesButtonItem {
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
     grid-row-start: 5;
     margin-top: 3rem;
 }
