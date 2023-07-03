@@ -10,7 +10,7 @@ const Header = () => {
   const [navBackground, setNavBackground] = useState(false);
 
   const controlNavBar = () => {
-    if (window.scrollY > lastScrollY) {
+    if (window.scrollY > lastScrollY && lastScrollY >= 0) {
       setShowNav(false);
     } else {
       setShowNav(true);
