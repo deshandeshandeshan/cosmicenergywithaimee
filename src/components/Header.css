@@ -129,10 +129,6 @@ a {
 
     .navMenu {
         text-align: left;
-        font-size: 2rem;
-        display: grid;
-        grid-template-columns: repeat(2, 40%);
-        grid-template-rows: repeat(2, 10rem);
     }
 }
 
