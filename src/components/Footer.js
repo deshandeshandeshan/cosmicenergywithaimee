@@ -1,10 +1,12 @@
 import LogoMark from "../images/LogoMark.png";
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import gradientSvg from "./HomepageSvgGradient.svg";
 
 const Footer = () => {
   return (
     <footer className="footer footerGrid mobileGrid footerGridPadding">
+      <img src={gradientSvg} alt="gradient" />
       <div className="footerGridItemA">
         <img src={LogoMark} alt="Cosmic energy logo" className="footerBrand" />
       </div>
