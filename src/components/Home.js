@@ -25,8 +25,6 @@ const Home = () => {
         </h1>
       </section>
 
-      {/* <HomepageSvgGradient /> */}
-
       <section className="homepageSectionOne">
         <div className="homepageIntroduction sectionOnegridPadding gridCentered">
           <div className="textAlign homepageIntroductionGridItem">
