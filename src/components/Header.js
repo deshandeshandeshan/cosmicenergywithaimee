@@ -64,15 +64,14 @@ const Header = () => {
           </Link>
           <div className="hamburgerGridItem">
             <div
-              className="hamburger hamburgerGridItem"
+              className="hamburger"
               onClick={() => {
                 setOpen(!open);
                 setNavBackground(true);
               }}
             >
-              <span className="bar bar1"></span>
-              <span className="bar bar2"></span>
-              <span className="bar bar3"></span>
+              <span className={open ? "bar bar1 spin" : "bar bar1"}></span>
+              <span className={open ? "bar bar2 spin" : "bar bar2"}></span>
             </div>
           </div>
         </div>

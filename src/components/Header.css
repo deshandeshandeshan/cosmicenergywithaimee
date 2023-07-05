@@ -64,17 +64,40 @@ a {
     flex-direction: column;
     justify-content: space-around;
     border-radius: 0.25em;
+    transition: .3S ease;
 }
 
 .hamburger:hover {
     cursor: pointer;
 }
 
-.hamburger .bar {
+.bar1, .bar2 {
     background-color: #E5D6FC;
     border-radius: 1em;
     width: 2rem;
     height: 0.25rem;
+    position: absolute;
+    display: block;
+    transform: rotate(0deg);
+    transition: all 0.4s;
+}
+
+.bar1 {
+    top: 2.7rem;
+}
+
+.bar2 {
+    top: 3.5rem;
+}
+
+.bar1.spin {
+    top: 3.1rem;
+    transform: rotate(135deg);
+}
+
+.bar2.spin {
+    top: 3.1rem;
+    transform: rotate(225deg);
 }
 
 .navLink {
@@ -133,10 +156,6 @@ a {
 }
 
 @media only screen and (min-width: 70rem) {
-    /* .navBrand {
-        padding: 2rem 0 0 4.375rem;
-    } */
-
     .navBar {
         padding: 0 4.375rem;
     }
