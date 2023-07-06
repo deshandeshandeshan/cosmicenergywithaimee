@@ -78,7 +78,7 @@ const Header = () => {
         <div
           className="navOverlay"
           style={{
-            top: open ? "0" : "-110%",
+            top: open ? "0" : "-100%",
             transitionDelay: open ? "0s" : "0.3s",
           }}
         >
