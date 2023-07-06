@@ -15,7 +15,7 @@
     background-position: center center;
     background-image: url("HomepageSvgGradient.svg");
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     padding: 8rem 2rem 0;
     gap: 0 1rem;
@@ -30,23 +30,23 @@
     align-items: center;
 }
 
-.headerGradientItemB {
+.headerGradientItemA {
     grid-column-start: 1;
     grid-row-start: 1;
 }
 
-.headerGradientItemC {
-    grid-column-start: 3;
+.headerGradientItemB {
+    grid-column-start: 2;
     grid-row-start: 2;
+}
+
+.headerGradientItemC {
+    grid-column-start: 1;
+    grid-row-start: 3;
 }
 
 .headerGradientItemD {
     grid-column-start: 2;
-    grid-row-start: 3;
-}
-
-.headerGradientItemE {
-    grid-column-start: 3;
     grid-row-start: 4;
 }
 
