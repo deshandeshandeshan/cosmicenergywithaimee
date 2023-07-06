@@ -104,15 +104,24 @@ a {
     font-family: "ivypresto-headline", serif;
     font-weight: 100;
     letter-spacing: .1rem;
-    transition: 0.7s ease;
 }
+
 .navLink:hover {
     color: #C6997D;
     transition-duration: .2s;
 }
 
-.navMenu {
-    text-align: left;
+.navLink-wrapper:after {
+    content: "";
+    position: absolute;
+    left: -10%;
+    width: 120%;
+    height: 100%;
+    margin: 0 auto;
+    background: #20123E;
+}
+
+/* .navMenu {
     font-size: 2rem;
     text-align: center;
 }
@@ -132,12 +141,44 @@ a {
     visibility: hidden;
     height: 0;
     transform: translateY(-2rem);
-    transition-duration: .5s;
+    transition-duration: 1s;
+} */
+
+.navOverlay {
+    position: fixed;
+    background: #20123E;
+    z-index: -2;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 4rem;
+    transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.navLink {
-    transition-duration: 2s;
+ul.navMenu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+ul.navMenu li a {
+    font-size: 2rem;
+    transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
+    position: relative;
+    top: 0;
 }
+
+/* .navLink {
+    transition-duration: 2s;
+} */
 
 .navItem {
     padding-bottom: .5rem;
@@ -145,13 +186,16 @@ a {
 
 
 @media only screen and (min-width: 50rem) {
+    /* .navMenu {
+        font-size: 5rem;
+    } */
+
+    ul.navMenu li a {
+        font-size: 4.5rem;
+    }
 
     .navBar {
         padding: 0 5rem;
-    }
-
-    .navMenu {
-        text-align: left;
     }
 }
 
