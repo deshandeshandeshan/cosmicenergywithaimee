@@ -62,67 +62,93 @@ const Header = () => {
               className="navBrand navBrandPadding"
             />
           </Link>
-          <div className="hamburgerGridItem">
-            <div
-              className="hamburger hamburgerGridItem"
-              onClick={() => {
-                setOpen(!open);
-                setNavBackground(true);
-              }}
-            >
-              <span className="bar bar1"></span>
-              <span className="bar bar2"></span>
-              <span className="bar bar3"></span>
+          <div
+            className="hamburgerGridItem"
+            onClick={() => {
+              setOpen(!open);
+              setNavBackground(true);
+            }}
+          >
+            <div className="hamburger">
+              <span className={open ? "bar bar1 spin" : "bar bar1"}></span>
+              <span className={open ? "bar bar2 spin" : "bar bar2"}></span>
             </div>
           </div>
         </div>
-
-        <ul className={`navMenu navPadding ${open ? "active" : "inactive"}`}>
-          <li className="navItem navPadding">
-            <Link
-              to="/"
-              className="navLink"
-              onClick={() => {
-                setOpen(!open);
-              }}
-            >
-              Home
-            </Link>
-          </li>
-          <li className="navItem navPadding">
-            <Link
-              to="/services"
-              className="navLink"
-              onClick={() => {
-                setOpen(!open);
-              }}
-            >
-              Services
-            </Link>
-          </li>
-          <li className="navItem navPadding">
-            <Link
-              to="/consult"
-              className="navLink"
-              onClick={() => {
-                setOpen(!open);
-              }}
-            >
-              Consult
-            </Link>
-          </li>
-          <li className="navItem navPadding">
-            <Link
-              to="/aboutme"
-              className="navLink"
-              onClick={() => {
-                setOpen(!open);
-              }}
-            >
-              About me
-            </Link>
-          </li>
-        </ul>
+        <div
+          className="navOverlay"
+          style={{
+            top: open ? "0" : "-110%",
+            transitionDelay: open ? "0s" : "0.3s",
+          }}
+        >
+          <ul className="navMenu">
+            <li className="navItem navPadding">
+              <Link
+                to="/"
+                className="navLink"
+                onClick={() => {
+                  setOpen(!open);
+                }}
+                style={{
+                  top: open ? "0" : "120px",
+                  transitionDelay: open ? "0.7s" : "0s",
+                }}
+              >
+                Home
+              </Link>
+              <div className="navLink-wrapper"></div>
+            </li>
+            <li className="navItem navPadding">
+              <Link
+                to="/services"
+                className="navLink"
+                onClick={() => {
+                  setOpen(!open);
+                }}
+                style={{
+                  top: open ? "0" : "120px",
+                  transitionDelay: open ? "0.8s" : "0s",
+                }}
+              >
+                Services
+              </Link>
+              <div className="navLink-wrapper"></div>
+            </li>
+            <li className="navItem navPadding">
+              <Link
+                to="/consult"
+                className="navLink"
+                onClick={() => {
+                  setOpen(!open);
+                }}
+                style={{
+                  top: open ? "0" : "120px",
+                  transitionDelay: open ? "0.9s" : "0s",
+                }}
+              >
+                Consult
+              </Link>
+              <div className="navLink-wrapper"></div>
+            </li>
+            <li className="navItem navPadding">
+              <Link
+                to="/aboutme"
+                className="navLink"
+                onClick={() => {
+                  setOpen(!open);
+                }}
+                style={{
+                  top: open ? "0" : "120px",
+                  transitionDelay: open ? "1s" : "0s",
+                }}
+              >
+                About me
+              </Link>
+              <div className="navLink-wrapper"></div>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
   );
