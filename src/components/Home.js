@@ -66,7 +66,7 @@ const Home = () => {
               At Cosmic Energy, we offer spiritual services that aim to help you
               connect with your inner self, elevate your consciousness and
               enhance your overall wellbeing. Our services include Reiki, Oracle
-              Card Readings and Mediumship Readings.
+              Card Readings and Spiritual Intuitive Readings.
             </p>
           </Reveal>
         </div>

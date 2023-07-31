@@ -89,15 +89,16 @@ const Services = () => {
         <div className="mediumshipGridItemB servicesItemAlign">
           <Reveal>
             <h2 className="heading servicesTextAlign servicesPadding ">
-              Mediumship readings
+              Spiritual Intuitive Readings
             </h2>
           </Reveal>
           <Reveal>
             <p className="servicesTextAlign">
-              A communication practice that connects you with loved ones who
-              have passed away. The practitioner will act as a medium or channel
-              between you and the spirit world, relaying messages and providing
-              comfort and closure.
+              This is a service where I connect in with your Spirit Team (yes,
+              we all have one!) and your Higher Self to bring through
+              information for you to access your highest possible timeline. You
+              are welcome to ask questions at the beginning of your session if
+              there something you want specific guidance on.
             </p>
           </Reveal>
         </div>

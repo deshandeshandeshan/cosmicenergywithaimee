@@ -121,29 +121,6 @@ a {
     background: #20123E;
 }
 
-/* .navMenu {
-    font-size: 2rem;
-    text-align: center;
-}
-
-.navMenu.active {
-    opacity: 1;
-    visibility: visible;
-    height: 100vh;
-    transform: translateY(0);
-    padding-bottom: 1rem;
-    transition-duration: .5s;
-    padding-top: 5rem;
-}
-
-.navMenu.inactive {
-    opacity: 0;
-    visibility: hidden;
-    height: 0;
-    transform: translateY(-2rem);
-    transition-duration: 1s;
-} */
-
 .navOverlay {
     position: fixed;
     background: #20123E;
@@ -175,10 +152,6 @@ ul.navMenu li a {
     position: relative;
     top: 0;
 }
-
-/* .navLink {
-    transition-duration: 2s;
-} */
 
 .navItem {
     padding-bottom: .5rem;
