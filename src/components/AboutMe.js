@@ -34,7 +34,7 @@ const AboutMe = () => {
         <img
           src={skyMoon}
           alt="ethereal sky setting with clouds and crecent moon"
-          className="aboutMeSectionOneimage image"
+          className="aboutMeSectionOneimage"
         />
       </section>
 

@@ -1,133 +1,134 @@
 .aboutMeSectionOne {
-    background-color: #4A2A93;
-    color: #E8E3D6;
+  background-color: #4a2a93;
+  color: #e8e3d6;
 }
 
 .aboutMeTitlePadding {
-    padding-bottom: 1rem
+  padding-bottom: 1rem;
 }
 
 .aboutMeSectionTwo {
-    background-color: #E8E3D6;
-    color: #20123E;
+  background-color: #e8e3d6;
+  color: #20123e;
 }
 
-.aboutMeSectionPadding, .aboutMeIntroductionPadding {
-    padding: 4rem 2rem;
+.aboutMeSectionPadding,
+.aboutMeIntroductionPadding {
+  padding: 4rem 2rem;
 }
 
 .aboutMeButton {
-    width: 100%;
+  width: 100%;
 }
 
 .aboutMePadding {
-    padding-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 @media only screen and (min-width: 50rem) {
+  .aboutMeSectionOne {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
 
-    .aboutMeSectionOne {
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-    }
+  .aboutMeHeaderImage {
+    height: 40rem;
+    width: 100%;
+    object-position: center;
+  }
 
-    .aboutMeHeaderImage {
-        height: 40rem; 
-        width: 100%;
-        object-position: center; 
-    }
+  .aboutMeSectionOneimage {
+    object-fit: cover;
+    width: 100%;
+    max-height: 50rem;
+  }
 
-    .aboutMeSectionOneimage {
-        object-fit: cover;
-        min-height: 100%;
-    }
+  .aboutMeIntroduction {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    min-height: 40rem;
+  }
 
-    .aboutMeIntroduction {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        align-items: center;
-        min-height: 40rem;
-    }
+  .aboutMeIntroductionPadding {
+    padding-left: 5rem;
+    padding-right: 0.5rem;
+  }
 
-    .aboutMeIntroductionPadding {
-        padding-left: 5rem;
-        padding-right: .5rem;
-    }
+  .aboutMeIntroductionGridItemA {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-template-rows: 1;
+  }
 
-    .aboutMeIntroductionGridItemA {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-template-rows: 1;
-    }
+  .aboutMeGrid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 0 1rem;
+    padding: 5rem 5rem;
+  }
 
-    .aboutMeGrid {
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(3, auto);
-        gap: 0 1rem;
-        padding: 5rem 5rem;
-    }
+  .aboutMeItemA {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
 
-    .aboutMeItemA {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
+  .aboutMeItemB {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
 
-    .aboutMeItemB {
-        grid-column-start: 5;
-        grid-column-end: 9;
-        grid-row-start: 2;  
-        grid-row-end: 3;  
-    }
-
-    .aboutMeItemC {
-        grid-column-start: 5;
-        grid-column-end: 7;
-        grid-row-start: 3;   
-        grid-row-end: 4; 
-    }
+  .aboutMeItemC {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
 }
 
 @media only screen and (min-width: 70rem) {
-    .aboutMeIntroduction {
-        grid-template-columns: repeat(6, 1fr);
-    }
+  .aboutMeIntroduction {
+    grid-template-columns: repeat(6, 1fr);
+  }
 
-    .aboutMeIntroductionPadding {
-        padding-left: 4.375rem;
-        padding-right: .5rem;
-    }
+  .aboutMeIntroductionPadding {
+    padding-left: 4.375rem;
+    padding-right: 0.5rem;
+  }
 
-    .aboutMeIntroductionGridItemA {
-        grid-column-start: 2;
-        grid-column-end: 5;
-    }
+  .aboutMeIntroductionGridItemA {
+    grid-column-start: 2;
+    grid-column-end: 5;
+  }
 
-    .aboutMeGrid {
-        grid-template-columns: repeat(12, 1fr);
-        padding: 12rem 4.375rem;
-    }
+  .aboutMeGrid {
+    grid-template-columns: repeat(12, 1fr);
+    padding: 12rem 4.375rem;
+  }
 
-    .aboutMeItemA {
-        grid-column-start: 2;
-        grid-column-end: 6;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
+  .aboutMeItemA {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
 
-    .aboutMeItemB {
-        grid-column-start: 8;
-        grid-column-end: 12;
-        grid-row-start: 2;  
-        grid-row-end: 3;  
-    }
+  .aboutMeItemB {
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
 
-    .aboutMeItemC {
-        grid-column-start: 8;
-        grid-column-end: 10;
-        grid-row-start: 3;   
-        grid-row-end: 4; 
-    }
+  .aboutMeItemC {
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
 }
