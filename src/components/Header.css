@@ -25,7 +25,7 @@ a {
 
 .nav--hidden {
   position: fixed;
-  right: -7rem;
+  top: -7rem;
   transition: 0.5s;
 }
 
