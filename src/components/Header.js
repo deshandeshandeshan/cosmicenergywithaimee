@@ -76,11 +76,7 @@ const Header = () => {
           </div>
         </div>
         <div
-          className="navOverlay"
-          style={{
-            top: open ? "0" : "-100vh",
-            transitionDelay: open ? "0s" : "0.3s",
-          }}
+          className={`navOverlay ${open ? "overlayHidden" : "overlayActive"}`}
         >
           <ul className="navMenu">
             <li className="navItem navPadding">

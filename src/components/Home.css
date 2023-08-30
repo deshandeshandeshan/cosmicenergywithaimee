@@ -1,435 +1,455 @@
-.grid, .homepageIntroduction {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0 1rem;
-    padding: 4rem 2rem;
+.grid,
+.homepageIntroduction {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0 1rem;
+  padding: 4rem 2rem;
 }
 
 .headerGradient {
-    min-height: 30rem;
+  min-height: 30rem;
 }
 
 .homepageHeaderGradient {
-    height: 100vh;
-    width: 100%;
-    background-position: center center;
-    background-image: url("HomepageSvgGradient.svg");
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    padding: 8rem 2rem 0;
-    gap: 0 1rem;
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-image: url("HomepageSvgGradient.svg");
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  padding: 8rem 2rem 0;
+  gap: 0 1rem;
 }
 
 .featureText {
-    font-size: 2rem;
+  font-size: 3rem;
 }
 
 .gradientGridAlign {
-    display: grid;
-    align-items: center;
+  display: grid;
+  align-items: center;
 }
 
 .headerGradientItemA {
-    grid-column-start: 1;
-    grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
 }
 
 .headerGradientItemB {
-    grid-column-start: 2;
-    grid-row-start: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
 }
 
 .headerGradientItemC {
-    grid-column-start: 1;
-    grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
 }
 
 .headerGradientItemD {
-    grid-column-start: 2;
-    grid-row-start: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
 }
 
 .gridCentered {
-    align-items: center;
-    min-height: 40rem;
+  align-items: center;
+  min-height: 40rem;
 }
 
-.image, svg {
-    display: block;
+.image,
+svg {
+  display: block;
 }
 
 .image {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .displayGrid {
-    display: grid;
+  display: grid;
 }
 
 .homepageTitlePadding {
-    padding-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 .buttonMargin {
-    margin:  2rem 3rem 2rem;
+  margin: 2rem 3rem 2rem;
 }
 
 .button {
-    border: none;
-    text-align: center;
-    display: grid;
-    background-color: #8A26A0;
-    color: #E5D6FC;
-    text-decoration: none;
-    padding: 1rem 2rem;
-    cursor: pointer;
-    transition: background 250ms ease-in-out, 
-                transform 150ms ease;
+  border: none;
+  text-align: center;
+  display: grid;
+  background-color: #8a26a0;
+  color: #e5d6fc;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background 250ms ease-in-out, transform 150ms ease;
 }
 
 .button:hover,
 .button:focus {
-    background: #20123E;
+  background: #20123e;
 }
 
 .button:focus {
-    outline: 1px solid #E5D6FC;
-    outline-offset: -4px;
+  outline: 1px solid #e5d6fc;
+  outline-offset: -4px;
 }
 
-.contentPadding{
-    padding-bottom: 1rem;
+.contentPadding {
+  padding-bottom: 1rem;
 }
 
 .imagePadding {
-    padding-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 .sectionOnegridPadding {
-    padding-left: 2rem;
-    padding-right: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .homepageIntroductionGridItem {
-    grid-column-start: 1;
-    grid-column-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 5;
 }
 
 .homepageIntroduction {
-    background-color: #20123E;
-    height: 30rem;
+  background-color: #20123e;
+  height: 30rem;
 }
 
 .homepageServices {
-    background-color: #4A2A93;
+  background-color: #4a2a93;
 }
 
 .homepageAboutMe {
-    background-color: #E8E3D6;
+  background-color: #e8e3d6;
 }
 
 .homepageServicesGrid {
-    grid-template-rows: repeat(5, auto);
+  grid-template-rows: repeat(5, auto);
 }
 
 .homepageAboutMeGrid {
-    grid-template-rows: repeat(4, auto);
+  grid-template-rows: repeat(4, auto);
 }
 
 .textColourCream {
-    color: #E8E3D6;
+  color: #e8e3d6;
 }
 
 .textColourLightPurple {
-    color: #E5D6FC
+  color: #e5d6fc;
 }
 
 .textColourPurple {
-    color: #4A2A93
+  color: #4a2a93;
 }
 
 .textAlign {
-    text-align: center;
+  text-align: center;
 }
 
-.servicesItemA, .homepageAboutMeItemA {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
+.servicesItemA,
+.homepageAboutMeItemA {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
 }
 
-.servicesItemB, .homepageAboutMeItemB {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 2;
+.servicesItemB,
+.homepageAboutMeItemB {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 2;
 }
 
-.servicesItemC, .homepageAboutMeItemC {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 3;
+.servicesItemC,
+.homepageAboutMeItemC {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
 }
 
 .servicesItemD {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 4;
 }
 
 .aboutMeButtonItem {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 4;
-    margin-top: 3rem;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  margin-top: 3rem;
 }
 
 .servicesButtonItem {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 5;
-    margin-top: 3rem;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  margin-top: 3rem;
 }
 
 @media only screen and (min-width: 50rem) {
-    .homepageHeaderGradient {
-        grid-template-columns: repeat(8, 1fr);
-        padding: 8rem 5rem 0;
-    }
-    
-    .headerGradientItemA {
-        grid-column-start: 1;
-        grid-row-start: 1;
-    }
-    
-    .headerGradientItemB {
-        grid-column-start: 7;
-        grid-row-start: 2;
-    }
-    
-    .headerGradientItemC {
-        grid-column-start: 2;
-        grid-row-start: 3;
-    }
-    
-    .headerGradientItemD {
-        grid-column-start: 5;
-        grid-row-start: 4;
-    }
+  .featureText {
+    font-size: 4rem;
+  }
 
-    .buttonMargin {
-        margin-top: 3rem;
-    }
+  .homepageHeaderGradient {
+    grid-template-columns: repeat(8, 1fr);
+    padding: 8rem 5rem 0;
+  }
 
-    .homepageTitlePadding {
-        padding-bottom: 1rem
-    }
+  .headerGradientItemA {
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+  }
 
-    .homepageSectionOne {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .headerGradientItemB {
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 2;
+  }
 
-    .image {
-        object-fit: cover;
-        min-height: 100%;
-    }
+  .headerGradientItemC {
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 3;
+  }
 
-    .textAlign {
-        text-align: left;
-    }
+  .headerGradientItemD {
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 4;
+  }
 
-    .homepageIntroduction {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    }
+  .buttonMargin {
+    margin-top: 3rem;
+  }
 
-    .sectionOnegridPadding {
-        padding-left: 5rem;
-        padding-right: .5rem;
-    }
+  .homepageTitlePadding {
+    padding-bottom: 1rem;
+  }
 
-    .homepageIntroductionGridItem {
-        grid-column-start: 1;
-        grid-column-end: 4;
-    }
+  .homepageSectionOne {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        gap: 0 1rem;
-        padding: 12rem 5rem;
-    }
+  .image {
+    object-fit: cover;
+    min-height: 100%;
+  }
 
-    .homepageServicesGrid {
-        grid-template-rows: repeat(6, auto);
-    }
+  .textAlign {
+    text-align: left;
+  }
 
-    .servicesItemA {
-        grid-column-start: 5;
-        grid-column-end: 9;
-        grid-row-start: 2;
-    }
+  .homepageIntroduction {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
 
-    .servicesItemB {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 3;
-        grid-row-end: 6;
-    }
+  .sectionOnegridPadding {
+    padding-left: 5rem;
+    padding-right: 0.5rem;
+  }
 
-    .servicesItemC {
-        grid-column-start: 5;
-        grid-column-end: 9;
-        grid-row-start: 3;
-    }
+  .homepageIntroductionGridItem {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
 
-    .servicesItemD {
-        grid-column-start: 5;
-        grid-column-end: 9;
-        grid-row-start: 4;
-    }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 0 1rem;
+    padding: 12rem 5rem;
+  }
 
-    .servicesButtonItem {
-        grid-column-start: 5;
-        grid-column-end: 9;
-    }
+  .homepageServicesGrid {
+    grid-template-rows: repeat(6, auto);
+  }
 
-    .homepageAboutMeItemA {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 2;
-    }
+  .servicesItemA {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 2;
+  }
 
-    .homepageAboutMeItemB {
-        grid-column-start: 5;
-        grid-column-end: 9;
-        grid-row-start: 3;
-        grid-row-end: 5;
-    }
+  .servicesItemB {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+  }
 
-    .homepageAboutMeItemC {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 3;
-    }
+  .servicesItemC {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 3;
+  }
 
-    .aboutMeButtonItem {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 4;
-    }
+  .servicesItemD {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 4;
+  }
 
-    .servicesTitlePadding, .aboutMeTitlePadding {
-        padding-top: 0;
-    }
+  .servicesButtonItem {
+    grid-column-start: 5;
+    grid-column-end: 9;
+  }
 
-    .imagePadding {
-        padding-bottom: 0;
-    }
+  .homepageAboutMeItemA {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+  }
+
+  .homepageAboutMeItemB {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+
+  .homepageAboutMeItemC {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+  }
+
+  .aboutMeButtonItem {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+  }
+
+  .servicesTitlePadding,
+  .aboutMeTitlePadding {
+    padding-top: 0;
+  }
+
+  .imagePadding {
+    padding-bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 70rem) {
-    .homepageHeaderGradient {
-        grid-template-columns: repeat(12, 1fr);
-        padding: 8rem 4.375rem 0;
-    }
-    
-    .headerGradientItemA {
-        grid-column-start: 2;
-        grid-row-start: 1;
-    }
-    
-    .headerGradientItemB {
-        grid-column-start: 9;
-        grid-row-start: 2;
-    }
-    
-    .headerGradientItemC {
-        grid-column-start: 4;
-        grid-row-start: 3;
-    }
-    
-    .headerGradientItemD {
-        grid-column-start: 11;
-        grid-row-start: 4;
-    }
+  .homepageHeaderGradient {
+    grid-template-columns: repeat(12, 1fr);
+    padding: 8rem 4.375rem 0;
+  }
 
+  .headerGradientItemA {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 1;
+  }
 
-    .homepageIntroduction {
-        grid-template-columns: repeat(6, 1fr);
-    }
+  .headerGradientItemB {
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 2;
+  }
 
-    .sectionOnegridPadding {
-        padding-left: 4.375rem;
-        padding-right: .5rem;
-    }
+  .headerGradientItemC {
+    grid-column-start: 4;
+    grid-column-end: 12;
+    grid-row-start: 3;
+  }
 
-    .homepageIntroductionGridItem {
-        grid-column-start: 2;
-        grid-column-end: 5;
-    }
+  .headerGradientItemD {
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 4;
+  }
 
-    .grid {
-        grid-template-columns: repeat(12, 1fr);
-        padding: 12rem 4.375rem;
-    }
+  .homepageIntroduction {
+    grid-template-columns: repeat(6, 1fr);
+  }
 
-    .servicesItemA {
-        grid-column-start: 8;
-        grid-column-end: 12;
-        grid-row-start: 2;
-    }
+  .sectionOnegridPadding {
+    padding-left: 4.375rem;
+    padding-right: 0.5rem;
+  }
 
-    .servicesItemB {
-        grid-column-start: 2;
-        grid-column-end: 6;
-        grid-row-start: 2;
-        grid-row-end: 6;
-    }
+  .homepageIntroductionGridItem {
+    grid-column-start: 2;
+    grid-column-end: 5;
+  }
 
-    .servicesItemC {
-        grid-column-start: 8;
-        grid-column-end: 12;
-        grid-row-start: 3;
-    }
+  .grid {
+    grid-template-columns: repeat(12, 1fr);
+    padding: 12rem 4.375rem;
+  }
 
-    .servicesItemD {
-        grid-column-start: 8;
-        grid-column-end: 12;
-        grid-row-start: 4;
-    }
+  .servicesItemA {
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 2;
+  }
 
-    .servicesButtonItem {
-        grid-column-start: 8;
-        grid-column-end: 10;
-        grid-row-start: 5;
-    }
+  .servicesItemB {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 6;
+  }
 
-    .homepageAboutMeItemA {
-        grid-column-start: 2;
-        grid-column-end: 5;
-        grid-row-start: 2;
-    }
+  .servicesItemC {
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 3;
+  }
 
-    .homepageAboutMeItemB {
-        grid-column-start: 8;
-        grid-column-end: 12;
-        grid-row-start: 2;
-        grid-row-end: 5;
-    }
+  .servicesItemD {
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 4;
+  }
 
-    .homepageAboutMeItemC {
-        grid-column-start: 2;
-        grid-column-end: 6;
-        grid-row-start: 3;
-    }
+  .servicesButtonItem {
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 5;
+  }
 
-    .aboutMeButtonItem {
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row-start: 4;
-        align-items:start;
-    }
+  .homepageAboutMeItemA {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+  }
+
+  .homepageAboutMeItemB {
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 5;
+  }
+
+  .homepageAboutMeItemC {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 3;
+  }
+
+  .aboutMeButtonItem {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    align-items: start;
+  }
 }
