@@ -22,12 +22,12 @@ export const Reveal = ({ children }) => {
     <motion.div
       ref={ref}
       variants={{
-        hidden: { opacity: 0, y: 75 },
+        hidden: { opacity: 0, y: 50 },
         visible: { opacity: 1, y: 0 },
       }}
       initial="hidden"
       animate={mainControls}
-      transition={{ duration: 1.2, delay: 0.5 }}
+      transition={{ duration: 0.7, delay: 0.2 }}
     >
       {children}
     </motion.div>

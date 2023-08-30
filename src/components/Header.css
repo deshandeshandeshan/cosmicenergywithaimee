@@ -1,179 +1,207 @@
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    color: #E5D6FC;
-    text-decoration: none;
+  color: #e5d6fc;
+  text-decoration: none;
 }
 
 .navBar {
-    top: 0px;
-    position: fixed;
-    transition-duration: .5s;
-    width: 100%;
-    padding: 0 2rem 
+  top: 0px;
+  position: fixed;
+  transition-duration: 0.5s;
+  width: 100%;
+  padding: 0 2rem;
 }
 
 .navBackground--hidden {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .navBackground--active {
-    background-color: #20123E;
+  background-color: #20123e;
 }
 
 .nav--hidden {
-    position: fixed;
-    top: -7rem;
-    transition: .5s;
-
+  position: fixed;
+  right: -7rem;
+  transition: 0.5s;
 }
 
 .navBrand {
-    display: flex;
-    justify-self: left;
-    padding: 2rem 0 ;
+  display: flex;
+  justify-self: left;
+  padding: 2rem 0;
 }
 
 .logoNavLink {
-    display: flex;
-    justify-content: left;
+  display: flex;
+  justify-content: left;
 }
 
 .navBrandPadding {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .navGrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .hamburgerGridItem {
-    display: flex;
-    align-items: center;
-    justify-content: right;
+  display: flex;
+  align-items: center;
+  justify-content: right;
 }
 
 .hamburger {
-    height: 3rem;
-    width: 3rem;
-    padding: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    border-radius: 0.25em;
-    transition: .3S ease;
+  height: 3rem;
+  width: 3rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 0.25em;
+  transition: 0.3s ease;
 }
 
 .hamburger:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.bar1, .bar2 {
-    background-color: #E5D6FC;
-    border-radius: 1em;
-    width: 2rem;
-    height: 0.25rem;
-    position: absolute;
-    display: block;
-    transform: rotate(0deg);
-    transition: all 0.4s;
+.bar1,
+.bar2 {
+  background-color: #e5d6fc;
+  border-radius: 1em;
+  width: 2rem;
+  height: 0.25rem;
+  position: absolute;
+  display: block;
+  transform: rotate(0deg);
+  transition: all 0.4s;
 }
 
 .bar1 {
-    top: 2.7rem;
+  top: 2.7rem;
 }
 
 .bar2 {
-    top: 3.5rem;
+  top: 3.5rem;
 }
 
 .bar1.spin {
-    top: 3.1rem;
-    transform: rotate(135deg);
+  top: 3.1rem;
+  transform: rotate(135deg);
 }
 
 .bar2.spin {
-    top: 3.1rem;
-    transform: rotate(225deg);
+  top: 3.1rem;
+  transform: rotate(225deg);
 }
 
 .navLink {
-    font-family: "ivypresto-headline", serif;
-    font-weight: 100;
-    letter-spacing: .1rem;
+  font-family: "ivypresto-headline", serif;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
 }
 
 .navLink:hover {
-    color: #C6997D;
-    transition-duration: .2s;
+  color: #c6997d;
+  transition-duration: 0.2s;
 }
 
 .navLink-wrapper:after {
-    content: "";
-    position: absolute;
-    left: -10%;
-    width: 120%;
-    height: 100%;
-    margin: 0 auto;
-    background: #20123E;
+  content: "";
+  position: absolute;
+  left: -10%;
+  width: 120%;
+  height: 100%;
+  margin: 0 auto;
+  background: #20123e;
 }
 
 .navOverlay {
-    position: fixed;
-    background: #20123E;
-    z-index: -2;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    padding: 4rem;
-    transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
+  position: fixed;
+  background: #20123e;
+  z-index: -2;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+  padding: 4rem;
+  transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 ul.navMenu {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} 
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 ul.navMenu li a {
-    font-size: 2rem;
-    transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
-    position: relative;
-    top: 0;
+  font-size: 2rem;
+  transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  right: 0;
 }
 
 .navItem {
-    padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
+.overlayHidden {
+  left: 0vw;
+  transition-delay: 0s;
+}
+
+.overlayActive {
+  left: 100vw;
+  transition-delay: 0.3s;
+}
 
 @media only screen and (min-width: 50rem) {
-    /* .navMenu {
+  /* .navMenu {
         font-size: 5rem;
     } */
 
-    ul.navMenu li a {
-        font-size: 4.5rem;
-    }
+  ul.navMenu li a {
+    font-size: 2rem;
+  }
 
-    .navBar {
-        padding: 0 5rem;
-    }
+  ul.navMenu {
+    top: 20%;
+    left: 50%;
+  }
+
+  .navOverlay {
+    width: 30vw;
+  }
+
+  .overlayHidden {
+    left: 70vw;
+    transition-delay: 0s;
+  }
+
+  .overlayActive {
+    left: 100vw;
+    transition-delay: 0.3s;
+  }
+
+  .navBar {
+    padding: 0 5rem;
+  }
 }
 
 @media only screen and (min-width: 70rem) {
-    .navBar {
-        padding: 0 4.375rem;
-    }
+  .navBar {
+    padding: 0 4.375rem;
+  }
 }
