@@ -8,6 +8,7 @@ a {
 }
 
 .navBar {
+  height: 7rem;
   top: 0px;
   position: fixed;
   transition-duration: 0.5s;
@@ -127,7 +128,7 @@ a {
   z-index: -2;
   left: 0;
   width: 100vw;
-  height: 100%;
+  height: 105%;
   overflow: hidden;
   padding: 4rem;
   transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
@@ -182,7 +183,7 @@ ul.navMenu li a {
   }
 
   .navOverlay {
-    width: 30vw;
+    width: 30%;
   }
 
   .overlayHidden {
