@@ -67,7 +67,7 @@ svg {
 
 .image {
   max-width: 100%;
-  height: auto;
+  height: 30rem;
 }
 
 .displayGrid {
@@ -405,7 +405,7 @@ svg {
   .servicesItemB {
     grid-column-start: 2;
     grid-column-end: 6;
-    grid-row-start: 2;
+    grid-row-start: 1;
     grid-row-end: 6;
   }
 
@@ -436,8 +436,8 @@ svg {
   .homepageAboutMeItemB {
     grid-column-start: 8;
     grid-column-end: 12;
-    grid-row-start: 2;
-    grid-row-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 6;
   }
 
   .homepageAboutMeItemC {
@@ -450,6 +450,6 @@ svg {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 4;
-    align-items: start;
+    grid-row-end: 5;
   }
 }
