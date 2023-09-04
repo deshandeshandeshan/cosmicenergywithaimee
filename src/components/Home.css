@@ -26,6 +26,11 @@
   font-size: 3rem;
 }
 
+.image {
+  object-fit: cover;
+  min-height: 100%;
+}
+
 .gradientGridAlign {
   display: grid;
   align-items: center;
