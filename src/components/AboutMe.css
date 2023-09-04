@@ -3,6 +3,12 @@
   color: #e8e3d6;
 }
 
+.aboutMeSectionOneimage {
+  object-fit: cover;
+  width: 100%;
+  max-height: 40rem;
+}
+
 .aboutMeTitlePadding {
   padding-bottom: 1rem;
 }
@@ -38,8 +44,6 @@
   }
 
   .aboutMeSectionOneimage {
-    object-fit: cover;
-    width: 100%;
     max-height: 50rem;
   }
 
