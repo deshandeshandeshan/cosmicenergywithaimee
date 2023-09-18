@@ -112,7 +112,7 @@ const Services = () => {
           please get in contact with me via the consult page or through email.
         </p>
 
-        <Link to="/reservation" className="outroGridItemB displayGrid">
+        <Link to="/consult" className="outroGridItemB displayGrid">
           <button className="button">Book a consultation</button>
         </Link>
       </div>

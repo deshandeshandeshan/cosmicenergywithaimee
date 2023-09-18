@@ -61,7 +61,7 @@ const AboutMe = () => {
         </div>
         <div className="aboutMeItemC">
           <Reveal>
-            <Link to="/reservation" className="aboutMeItemC">
+            <Link to="/consult" className="aboutMeItemC">
               <button className="button aboutMeButton">
                 Book a consultation
               </button>
