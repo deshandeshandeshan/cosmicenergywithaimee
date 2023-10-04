@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import reiki from "../images/reiki.jpg";
-import oracleCards from "../images/oracle_cards.jpg";
 import incense from "../images/incense.jpg";
 import "./Services.css";
 import { Reveal } from "./utils/Reveal";
@@ -20,19 +18,18 @@ const Services = () => {
           <div className="gridItemB">
             <Reveal>
               <p className="textColourLightPurple">
-                We offer a range of spiritual services designed to help you
-                connect with your inner self, gain clarity and elevate your
-                consciousness. Whether you're seeking to release tension, gain
-                insight or find comfort, we invite you to explore our services
-                and discover how Cosmic Energy can support your path towards
-                self-discovery and transformation.
+                This service is provided over email where I connect in with your
+                energy, your Spirit Team (yes, we all have one!) and your Higher
+                Self to bring through information for you to access your highest
+                possible timeline. You are can ask three questions with this
+                service, which you can include when completing your booking
               </p>
             </Reveal>
           </div>
         </div>
       </section>
 
-      <section className="services servicesGrid">
+      {/* <section className="services servicesGrid">
         <img
           src={reiki}
           alt="Side profile of someones face laying down as someone performs reiki on them"
@@ -78,7 +75,7 @@ const Services = () => {
             </p>
           </Reveal>
         </div>
-      </div>
+      </div> */}
 
       <div className="services servicesGrid">
         <img

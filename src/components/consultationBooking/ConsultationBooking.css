@@ -1,15 +1,15 @@
 .consultationPage {
-    background-color: #20123E;
-    height: 55rem;
-    padding-top: 8rem;
+  background-color: #20123e;
+  height: 70rem;
+  padding: 8rem 2rem 8rem;
 }
 
-.consultationPadding {
-    padding: 10rem 2rem 0
+div.calendly-inline-widget {
+  height: 100% !important;
 }
 
 @media only screen and (min-width: 50rem) {
-    .consultationPadding {
-        padding: 0
-    }
+  .consultationPage {
+    height: 65rem;
+  }
 }
