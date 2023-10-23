@@ -111,7 +111,7 @@ const Header = () => {
               </Link>
               <div className="navLink-wrapper"></div>
             </li>
-            <li className="navItem navPadding">
+            {/* <li className="navItem navPadding">
               <Link
                 to="/consult"
                 className="navLink"
@@ -126,7 +126,7 @@ const Header = () => {
                 Consult
               </Link>
               <div className="navLink-wrapper"></div>
-            </li>
+            </li> */}
             <li className="navItem navPadding">
               <Link
                 to="/aboutme"
@@ -139,7 +139,7 @@ const Header = () => {
                   transitionDelay: open ? "1s" : "0s",
                 }}
               >
-                About me
+                About
               </Link>
               <div className="navLink-wrapper"></div>
             </li>
