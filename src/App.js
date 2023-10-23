@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
 import AboutMe from "./components/AboutMe";
-import emailServiceBooking from "./components/consultationBooking/emailServiceBooking";
+import EmailServiceBooking from "./components/consultationBooking/emailServiceBooking";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route path="/aboutme" element={<AboutMe />} />
           <Route
             path="/email-service-booking"
-            element={<emailServiceBooking />}
+            element={<EmailServiceBooking />}
           />
         </Routes>
       </ScrollToTop>

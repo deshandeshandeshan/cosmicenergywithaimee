@@ -81,22 +81,29 @@ const Services = () => {
         <img
           src={incense}
           alt="Side profile of someones face laying down as someone performs reiki on them"
-          className="mediumshipGridItemA image imagePadding"
+          className="spiritReadingsItemA mobileCentring image imagePadding"
         />
-        <div className="mediumshipGridItemB servicesItemAlign">
+        <div className="spiritReadingsItemB servicesItemAlign">
           <Reveal>
             <h2 className="heading servicesTextAlign servicesPadding ">
               Spiritual Intuitive Readings
             </h2>
           </Reveal>
           <Reveal>
-            <p className="servicesTextAlign">
+            <p className="servicesTextAlign buttonPadding">
               This is a service where I connect in with your Spirit Team (yes,
               we all have one!) and your Higher Self to bring through
               information for you to access your highest possible timeline. You
               are welcome to ask questions at the beginning of your session if
               there something you want specific guidance on.
             </p>
+          </Reveal>
+          <Reveal>
+            <div className="spiritReadingsButton mobileCentring">
+              <Link to="/email-service-booking">
+                <button className=" button">Book a consultation</button>
+              </Link>
+            </div>
           </Reveal>
         </div>
       </div>
@@ -108,10 +115,6 @@ const Services = () => {
           your convenience. If you are interested in any of these services
           please get in contact with me via the consult page or through email.
         </p>
-
-        <Link to="/consult" className="outroGridItemB displayGrid">
-          <button className="button">Book a consultation</button>
-        </Link>
       </div>
     </main>
   );

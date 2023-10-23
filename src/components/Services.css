@@ -1,238 +1,252 @@
 .servicesTextAlign {
-    text-align: center;
+  text-align: center;
+}
+
+.buttonPadding {
+  padding-bottom: 2rem;
 }
 
 .servicesContentPadding {
-    padding-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 .textColourLightPurple {
-    color: #E5D6FC;
+  color: #e5d6fc;
 }
 
 .servicesGrid {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .servicesPadding {
-    padding-bottom: 1rem
+  padding-bottom: 1rem;
 }
 
 .servicesIntro {
-    display: grid;
-    max-height: 40rem;
-    background-color: #20123E;
-    grid-template-rows: repeat(4, 1fr);
+  display: grid;
+  max-height: 40rem;
+  background-color: #20123e;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.mobileCentring {
+  margin: 0 auto;
 }
 
 .servicesIntroGridItem {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 
 .services {
-    display: grid;
-    min-height: 30rem;
-    background-color: #E8E3D6;
-    grid-template-rows: repeat(2, auto);
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+  display: grid;
+  min-height: 30rem;
+  background-color: #e8e3d6;
+  grid-template-rows: repeat(2, auto);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
-.reikiGridItemA, .mediumshipGridItemA {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
+.reikiGridItemA,
+.spiritReadingsItemA {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
-.reikiGridItemB, .mediumshipGridItemB {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
+.reikiGridItemB,
+.spiritReadingsItemB {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.spiritReadingsButton {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  margin: auto 0;
 }
 
 .oracleGridItemA {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .oracleGridItemB {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .servicesOutro {
-    display: grid;
-    min-height: 20rem;
-    background-color: #4A2A93;
-    grid-template-rows: repeat(2, auto);
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+  display: grid;
+  min-height: 20rem;
+  background-color: #4a2a93;
+  grid-template-rows: repeat(2, auto);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .outroGridItemA {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    color: #E8E3D6;
-}
-
-.outroGridItemB {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    margin: auto 0;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  color: #e8e3d6;
 }
 
 @media only screen and (min-width: 50rem) {
-.servicesOutro {
+  .servicesOutro {
     padding-top: 12rem;
     padding-bottom: 12rem;
-}
+  }
 
-    .servicesIntro {
-        display: grid;
-        max-height: 40rem;
-        background-color: #20123E;
-        grid-template-rows: repeat(4, 1fr);
-    }
+  .servicesIntro {
+    display: grid;
+    max-height: 40rem;
+    background-color: #20123e;
+    grid-template-rows: repeat(4, 1fr);
+  }
 
-    .servicesGrid {
-        grid-template-columns: repeat(8, 1fr);
-        gap: 0 1rem;
-        padding-left: 5rem;
-        padding-right: 5rem;
-    }
+  .servicesGrid {
+    grid-template-columns: repeat(8, 1fr);
+    gap: 0 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
 
-    .servicesIntroGridItem {
-        grid-column-start: 2;
-        grid-column-end: 6;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
+  .servicesTextAlign {
+    text-align: left;
+  }
 
-    .reikiGridItemA, .mediumshipGridItemA {
-        grid-column-start: 3;
-        grid-column-end: 7;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-    
-    .reikiGridItemB, .mediumshipGridItemB {
-        grid-column-start: 3;
-        grid-column-end: 7;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        padding-top: 2rem;
-    }
+  .servicesIntroGridItem {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
 
-    .oracleGridItemA {
-        grid-column-start: 3;
-        grid-column-end: 7;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-    
-    .oracleGridItemB {
-        grid-column-start: 3;
-        grid-column-end: 7;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        padding-top: 2rem;
-    }
+  .reikiGridItemA,
+  .spiritReadingsItemA {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
 
-    .outroGridItemA {
-        grid-column-start: 3;
-        grid-column-end: 7;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        color: #E8E3D6;
-    }
-    
-    .outroGridItemB {
-        grid-column-start: 3;
-        grid-column-end: 7;
-        grid-row-start: 2;
-        margin: auto 0;
-    }
+  .reikiGridItemB,
+  .spiritReadingsItemB {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-top: 2rem;
+  }
+
+  .spiritReadingsButton {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    margin: auto 0;
+  }
+
+  .oracleGridItemA {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .oracleGridItemB {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-top: 2rem;
+  }
+
+  .outroGridItemA {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: #e8e3d6;
+  }
 }
 
 @media only screen and (min-width: 70rem) {
-    .servicesGrid {
-        grid-template-columns: repeat(12, 1fr);
-        padding-left: 4.375rem;
-        padding-right: 4.375rem;
-    }
+  .servicesGrid {
+    grid-template-columns: repeat(12, 1fr);
+    padding-left: 4.375rem;
+    padding-right: 4.375rem;
+  }
 
-    .servicesTextAlign {
-        text-align: left;
-    }
+  .servicesItemAlign {
+    margin: 50% 0;
+  }
 
-    .servicesItemAlign {
-        margin: 50% 0;
-    }
+  .servicesIntroGridItem {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
 
-    .servicesIntroGridItem {
-        grid-column-start: 2;
-        grid-column-end: 6;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
+  .reikiGridItemA,
+  .spiritReadingsItemA {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
 
-    .reikiGridItemA, .mediumshipGridItemA {
-        grid-column-start: 2;
-        grid-column-end: 6;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-    
-    .reikiGridItemB, .mediumshipGridItemB {
-        grid-column-start: 8;
-        grid-column-end: 12;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        padding-top: 0;
-    }
+  .reikiGridItemB,
+  .spiritReadingsItemB {
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-top: 0;
+  }
 
-    .oracleGridItemA {
-        grid-column-start: 8;
-        grid-column-end: 12;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        padding-top: 0;
-    }
-    
-    .oracleGridItemB {
-        grid-column-start: 2;
-        grid-column-end: 6;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
+  .spiritReadingsButton {
+    grid-column-start: 8;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    margin: auto 0;
+  }
 
-    .outroGridItemA {
-        grid-column-start: 2;
-        grid-column-end: 6;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        color: #E8E3D6;
-    }
-    
-    .outroGridItemB {
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row-start: 2;
-        margin: auto 0;
-    }
+  .oracleGridItemA {
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-top: 0;
+  }
+
+  .oracleGridItemB {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .outroGridItemA {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: #e8e3d6;
+  }
 }
