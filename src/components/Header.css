@@ -114,12 +114,12 @@ a {
   width: 120%;
   height: 100%;
   margin: 0 auto;
-  background: #20123e;
+  background: #4a2a93;
 }
 
 .navOverlay {
   position: fixed;
-  background: #20123e;
+  background: #4a2a93;
   z-index: -2;
   left: 0;
   width: 100vw;
