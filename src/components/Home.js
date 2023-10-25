@@ -2,8 +2,6 @@ import { Link } from "react-router-dom";
 import tree from "../images/tree.jpg";
 import reiki from "../images/reiki.jpg";
 import aboutMe from "../images/about_me.jpg";
-// import headerGradient from "../images/Header_Gradient.png";
-// import HomepageSvgGradient from "./HomepageSvgGradient";
 import "./Home.css";
 import { Reveal } from "./utils/Reveal";
 
@@ -30,12 +28,12 @@ const Home = () => {
           <div className="textAlign homepageIntroductionGridItem">
             <Reveal>
               <p className="textColourLightPurple">
-                Cosmic Energy is a spiritual company founded by Aimee. Our
-                services are designed to help you connect with your inner self
-                and elevate your consciousness. We value openness, oneness and
-                spiritual growth, and strive to empower you on your journey with
-                kindness and authenticity. Our goal is to support your path
-                towards self-discovery and transformation.
+                Cosmic Energy is a spiritual company where the services are
+                designed to help you connect with your inner self and elevate
+                your consciousness. I value openness, oneness and spiritual
+                growth, and strive to empower you on your journey with kindness
+                and authenticity. My goal is to support your path towards
+                self-discovery and transformation.
               </p>
             </Reveal>
           </div>
@@ -51,7 +49,7 @@ const Home = () => {
       <section className="homepageServices grid homepageServicesGrid">
         <div className="textAlign servicesItemA servicesTitlePadding homepageTitlePadding">
           <Reveal>
-            <h2 className="heading textColourCream">Services</h2>
+            <h2 className="heading textColourDarkPurple">Services</h2>
           </Reveal>
         </div>
         <img
@@ -62,22 +60,19 @@ const Home = () => {
 
         <div className="textAlign servicesItemC contentPadding">
           <Reveal>
-            <p className="textColourCream">
-              At Cosmic Energy, we offer spiritual services that aim to help you
+            <p className="textColourDarkPurple">
+              At Cosmic Energy, I offer spiritual services that aim to help you
               connect with your inner self, elevate your consciousness and
-              enhance your overall wellbeing. Our services include Reiki, Oracle
-              Card Readings and Spiritual Intuitive Readings.
+              enhance your overall wellbeing.
             </p>
           </Reveal>
         </div>
         <div className="textAlign servicesItemD">
           <Reveal>
-            <p className="textColourCream">
+            <p className="textColourDarkPurple">
               Whether you're seeking to release tension, gain insight or find
-              comfort, our services are tailored to your individual needs and
-              preferences and can be conducted in person, on video call or
-              through email. We invite you to explore our offerings and discover
-              how Cosmic Energy can support your spiritual journey.
+              comfort. I invite you to explore our offerings and discover how
+              Cosmic Energy can support your spiritual journey.
             </p>
           </Reveal>
         </div>
@@ -93,7 +88,7 @@ const Home = () => {
       <section className="grid homepageAboutMe homepageAboutMeGrid">
         <div className="homepageAboutMeItemA textAlign homepageTitlePadding">
           <Reveal>
-            <h2 className="heading">Hi, I'm Aimee</h2>
+            <h2 className="heading textColourLightPurple">Hi, I'm Aimee</h2>
           </Reveal>
         </div>
         <img
@@ -101,7 +96,7 @@ const Home = () => {
           alt="Someone Viewing a glowing green sky"
           className="image imagePadding gradientGridAlign homepageAboutMeItemB"
         />
-        <div className="homepageAboutMeItemC textAlign contentPadding">
+        <div className="homepageAboutMeItemC textAlign contentPadding textColourLightPurple">
           <Reveal>
             <p>
               I have consciously been on my own spiritual journey since I was 17

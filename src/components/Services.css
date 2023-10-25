@@ -93,7 +93,7 @@
 .servicesOutro {
   display: grid;
   min-height: 20rem;
-  background-color: #4a2a93;
+  background-color: #20123e;
   grid-template-rows: repeat(2, auto);
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -104,7 +104,7 @@
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 2;
-  color: #e8e3d6;
+  color: #e5d6fc;
 }
 
 @media only screen and (min-width: 50rem) {
@@ -183,7 +183,6 @@
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 2;
-    color: #e8e3d6;
   }
 }
 
@@ -249,6 +248,5 @@
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 2;
-    color: #e8e3d6;
   }
 }

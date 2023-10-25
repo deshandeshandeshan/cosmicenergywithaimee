@@ -18,11 +18,12 @@ const Services = () => {
           <div className="gridItemB">
             <Reveal>
               <p className="textColourLightPurple">
-                This service is provided over email where I connect in with your
-                energy, your Spirit Team (yes, we all have one!) and your Higher
-                Self to bring through information for you to access your highest
-                possible timeline. You are can ask three questions with this
-                service, which you can include when completing your booking
+                My services designed to help you connect with your inner self,
+                gain clarity and elevate your consciousness. Whether you're
+                seeking to release tension, gain insight or find comfort, we
+                invite you to explore our services and discover how Cosmic
+                Energy can support your path towards self-discovery and
+                transformation.
               </p>
             </Reveal>
           </div>
