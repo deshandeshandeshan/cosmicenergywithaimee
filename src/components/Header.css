@@ -21,7 +21,7 @@ a {
 }
 
 .navBackground--active {
-  background-color: #20123e;
+  background-color: transparent;
 }
 
 .nav--hidden {
@@ -107,11 +107,6 @@ a {
   letter-spacing: 0.1rem;
 }
 
-.navLink:hover {
-  color: #c6997d;
-  transition-duration: 0.2s;
-}
-
 .navLink-wrapper:after {
   content: "";
   position: absolute;
@@ -119,16 +114,17 @@ a {
   width: 120%;
   height: 100%;
   margin: 0 auto;
-  background: #20123e;
+  background: #4a2a93;
 }
 
 .navOverlay {
   position: fixed;
-  background: #20123e;
+  background: #4a2a93;
   z-index: -2;
   left: 0;
   width: 100vw;
-  height: 105%;
+  top: 0;
+  height: 110%;
   overflow: hidden;
   padding: 4rem;
   transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);

@@ -133,11 +133,11 @@ svg {
 }
 
 .homepageServices {
-  background-color: #4a2a93;
+  background-color: #e8e3d6;
 }
 
 .homepageAboutMe {
-  background-color: #e8e3d6;
+  background-color: #20123e;
 }
 
 .homepageServicesGrid {
@@ -158,6 +158,10 @@ svg {
 
 .textColourPurple {
   color: #4a2a93;
+}
+
+.textColourDarkPurple {
+  color: #20123e;
 }
 
 .textAlign {
@@ -296,8 +300,8 @@ svg {
   .servicesItemB {
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 7;
   }
 
   .servicesItemC {
@@ -315,6 +319,7 @@ svg {
   .servicesButtonItem {
     grid-column-start: 5;
     grid-column-end: 9;
+    grid-row-start: 5;
   }
 
   .homepageAboutMeItemA {
@@ -326,8 +331,8 @@ svg {
   .homepageAboutMeItemB {
     grid-column-start: 5;
     grid-column-end: 9;
-    grid-row-start: 3;
-    grid-row-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 6;
   }
 
   .homepageAboutMeItemC {
@@ -411,7 +416,7 @@ svg {
     grid-column-start: 2;
     grid-column-end: 6;
     grid-row-start: 1;
-    grid-row-end: 6;
+    grid-row-end: 7;
   }
 
   .servicesItemC {
