@@ -40,13 +40,8 @@ const Footer = () => {
           </Link>
         </li>
         <li className="footerItem textPadding">
-          <Link to="/consult" className="navLink">
-            Consult
-          </Link>
-        </li>
-        <li className="footerItem textPadding">
           <Link to="/aboutme" className="navLink">
-            About me
+            About
           </Link>
         </li>
       </ul>

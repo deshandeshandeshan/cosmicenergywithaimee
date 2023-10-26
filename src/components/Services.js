@@ -92,11 +92,15 @@ const Services = () => {
           </Reveal>
           <Reveal>
             <p className="servicesTextAlign buttonPadding">
-              This is a service where I connect in with your Spirit Team (yes,
-              we all have one!) and your Higher Self to bring through
-              information for you to access your highest possible timeline. You
-              are welcome to ask questions at the beginning of your session if
-              there something you want specific guidance on.
+              this service is provided over email where I connect in with your
+              energy, your Spirit Team (yes, we all have one!) and your Higher
+              Self to bring through information for you to access your highest
+              possible timeline. You are can ask three questions with this
+              service, which you can include when completing your booking. An
+              email reading allows for the messages from Spirit to flow through
+              uninterrupted giving you the freedom and space to absorb and go
+              through the channel received in your own time as many times as you
+              feel called.
             </p>
           </Reveal>
           <Reveal>
@@ -109,14 +113,14 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="servicesOutro servicesGrid">
+      {/* <div className="servicesOutro servicesGrid">
         <p className="outroGridItemA servicesTextAlign servicesContentPadding">
           Our services are tailored to your individual needs and preferences,
           and can be conducted in person, on video call or through email, for
           your convenience. If you are interested in any of these services
           please get in contact with me via the consult page or through email.
         </p>
-      </div>
+      </div> */}
     </main>
   );
 };
