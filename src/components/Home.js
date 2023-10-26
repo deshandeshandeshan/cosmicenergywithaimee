@@ -71,8 +71,8 @@ const Home = () => {
           <Reveal>
             <p className="textColourDarkPurple">
               Whether you're seeking to release tension, gain insight or find
-              comfort. I invite you to explore our offerings and discover how
-              Cosmic Energy can support your spiritual journey.
+              comfort. I invite you to connect with me and discover how Cosmic
+              Energy can support your spiritual journey.
             </p>
           </Reveal>
         </div>

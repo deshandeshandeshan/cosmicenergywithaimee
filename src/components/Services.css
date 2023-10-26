@@ -99,14 +99,6 @@
   padding-bottom: 4rem;
 }
 
-.outroGridItemA {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  color: #e5d6fc;
-}
-
 @media only screen and (min-width: 50rem) {
   .servicesOutro {
     padding-top: 12rem;
@@ -177,13 +169,6 @@
     grid-row-end: 3;
     padding-top: 2rem;
   }
-
-  .outroGridItemA {
-    grid-column-start: 2;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 2;
-  }
 }
 
 @media only screen and (min-width: 70rem) {
@@ -237,13 +222,6 @@
   }
 
   .oracleGridItemB {
-    grid-column-start: 2;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    grid-row-end: 2;
-  }
-
-  .outroGridItemA {
     grid-column-start: 2;
     grid-column-end: 6;
     grid-row-start: 1;
