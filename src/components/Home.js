@@ -101,11 +101,11 @@ const Home = () => {
             <p>
               I have consciously been on my own spiritual journey since I was 17
               years of age. Fast forward a few years and some losses later, I
-              finally chose to answer the “call” to unlock who I really am after
-              losing my Paternal grandmother back in 2008. I am passionate about
-              being a catalyst for my clients to unlock their self-empowerment
-              and clear blocks that are stopping their soul connection on their
-              journey and who they want to be.
+              finally chose to answer the “call” to stand in my authenticity
+              after losing my Paternal grandmother back in 2008. I am passionate
+              about being a catalyst for my clients to unlock their
+              self-empowerment and clear blocks that are stopping their soul
+              connection on their journey and being in alignment.
             </p>
           </Reveal>
         </div>
