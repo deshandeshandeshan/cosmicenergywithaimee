@@ -84,28 +84,6 @@ svg {
   margin: 2rem 3rem 2rem;
 }
 
-.button {
-  border: none;
-  text-align: center;
-  display: grid;
-  background-color: #8a26a0;
-  color: #e5d6fc;
-  text-decoration: none;
-  padding: 1rem 2rem;
-  cursor: pointer;
-  transition: background 250ms ease-in-out, transform 150ms ease;
-}
-
-.button:hover,
-.button:focus {
-  background: #20123e;
-}
-
-.button:focus {
-  outline: 1px solid #e5d6fc;
-  outline-offset: -4px;
-}
-
 .contentPadding {
   padding-bottom: 1rem;
 }
