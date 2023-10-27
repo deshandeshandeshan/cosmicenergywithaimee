@@ -29,62 +29,13 @@ const Services = () => {
           </div>
         </div>
       </section>
-
-      {/* <section className="services servicesGrid">
-        <img
-          src={reiki}
-          alt="Side profile of someones face laying down as someone performs reiki on them"
-          className="reikiGridItemA image imagePadding"
-        />
-        <div className="reikiGridItemB servicesItemAlign">
-          <Reveal>
-            <h2 className="heading servicesTextAlign servicesPadding ">
-              Reiki
-            </h2>
-          </Reveal>
-          <Reveal>
-            <p className="servicesTextAlign">
-              A Japanese healing technique that promotes relaxation and balance
-              in the body, mind and spirit. During a session, the practitioner
-              will use light touch or hands hovering over your body to channel
-              energy, which can help release tension, reduce stress and enhance
-              overall wellbeing.
-            </p>
-          </Reveal>
-        </div>
-      </section>
-
-      <div className="services servicesGrid">
-        <img
-          src={oracleCards}
-          alt="Side profile of someones face laying down as someone performs reiki on them"
-          className="oracleGridItemA image imagePadding"
-        />
-        <div className="oracleGridItemB servicesItemAlign">
-          <Reveal>
-            <h2 className="heading servicesTextAlign servicesPadding ">
-              Oracle card readings
-            </h2>
-          </Reveal>
-          <Reveal>
-            <p className="servicesTextAlign">
-              A divination practice that uses oracle cards to provide guidance,
-              insight and clarity. The practitioner will help you select cards
-              that resonate with your questions or intentions, and offer
-              interpretation and guidance based on the symbolism and messages of
-              the cards.
-            </p>
-          </Reveal>
-        </div>
-      </div> */}
-
       <div className="services servicesGrid">
         <img
           src={incense}
           alt="Side profile of someones face laying down as someone performs reiki on them"
           className="spiritReadingsItemA mobileCentring image imagePadding"
         />
-        <div className="spiritReadingsItemB servicesItemAlign">
+        <div className="spiritReadingsItemB">
           <Reveal>
             <h2 className="heading servicesTextAlign servicesPadding ">
               Spiritual Intuitive Readings
@@ -92,7 +43,7 @@ const Services = () => {
           </Reveal>
           <Reveal>
             <p className="servicesTextAlign buttonPadding">
-              this service is provided over email where I connect in with your
+              This service is provided over email where I connect in with your
               energy, your Spirit Team (yes, we all have one!) and your Higher
               Self to bring through information for you to access your highest
               possible timeline. You are can ask three questions with this
@@ -103,24 +54,15 @@ const Services = () => {
               feel called.
             </p>
           </Reveal>
+        </div>
+        <div className="spiritReadingsItemC">
           <Reveal>
-            <div className="spiritReadingsButton mobileCentring">
-              <Link to="/email-service-booking">
-                <button className=" button">Book a consultation</button>
-              </Link>
-            </div>
+            <Link to="/email-service-booking" className="displayGrid">
+              <button className="button">Book a consultation</button>
+            </Link>
           </Reveal>
         </div>
       </div>
-
-      {/* <div className="servicesOutro servicesGrid">
-        <p className="outroGridItemA servicesTextAlign servicesContentPadding">
-          Our services are tailored to your individual needs and preferences,
-          and can be conducted in person, on video call or through email, for
-          your convenience. If you are interested in any of these services
-          please get in contact with me via the consult page or through email.
-        </p>
-      </div> */}
     </main>
   );
 };

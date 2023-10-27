@@ -1,5 +1,5 @@
 import { InlineWidget } from "react-calendly";
-import "./ConsultationBooking.css";
+import "./emailServiceBooking.css";
 
 const emailServiceBooking = () => {
   return (
